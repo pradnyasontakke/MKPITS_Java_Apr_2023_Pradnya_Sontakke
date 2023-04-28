@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int  mno;
+clrscr();
+printf("enter the number\n");
+scanf("%d",&mno);
+if(mno==1)
+{
+printf("january\n");
+}else
+if(mno==2)
+{ printf("february\n");
+}else
+if(mno==3)
+{printf("march\n");
+}else
+if(mno==4)
+{
+printf("april");
+}else
+if(mno==5)
+{printf("may");
+}else
+if(mno==6)
+{printf("jun");
+}else
+if(mno==7)
+{printf("july");
+}else
+if(mno==8)
+{
+printf("august");
+}else
+if(mno==9)
+{printf("september");
+}else
+if(mno==10)
+{
+printf("octomber");
+}else
+if(mno==11)
+{printf("november");
+}else
+if(mno==12)
+{printf("december");
+}
+getch();
+}
