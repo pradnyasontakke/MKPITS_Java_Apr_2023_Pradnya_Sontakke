@@ -1,0 +1,44 @@
+.border{
+	outline: 5px solid red;
+
+
+
+}
+
+	.d1{
+	border: 3px solid blue;
+	margin: 20px;
+	background-color: lightgray;
+	margin: 15px;
+	padding: 4px;
+	
+	
+
+}
+.d2{
+	border: 3px solid gray;
+	margin: 20px;
+	background-color: lightpink;
+	margin: 15px;
+	padding: 4px;
+	
+
+}
+.d3{
+	border: 3px solid pink;
+	margin: 20px;
+	background-color: lightcoral;
+	margin: 15px;
+	padding: 4px;
+	
+
+}
+
+
+
+
+/*table{
+	border: 2px solid gray;
+	background-image: D:\MKPITS\MKPITS_Java_Apr_2023_Pradnya_Sontakke\html.css.js\img\road.jpg;
+	opacity: 0.5;
+}*/
