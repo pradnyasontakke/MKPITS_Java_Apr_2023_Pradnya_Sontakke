@@ -1,0 +1,37 @@
+.one{
+    height: 200px;
+    width: 200px;
+    border-top: 3px solid red;
+    border-left: 3px solid yellow;
+    border-right: 3px solid red;
+    border-bottom: 3px solid yellow;
+    margin: 20px;
+    padding: 10px;
+    background-color: aqua;
+
+}
+p{
+    margin: 200px;
+}
+.two{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px; 
+    border : dotted blue;
+    background-color: aliceblue;
+    margin:5px;
+    padding: 10px;
+    color: blue;
+
+
+}
+p{
+    height: 200px; width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: azure;
+    border: 5px ridge;
+    border-top-left-radius: 30px;
+
+
+}

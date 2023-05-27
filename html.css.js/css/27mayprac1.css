@@ -1,0 +1,24 @@
+h1{
+border: 5px solid blue;
+color: lightblue;
+margin: 5px;
+width: 500px;
+
+}
+.p3{ 
+border-style: solid ridge dotted;
+/*border: 3px solid blue;*/
+color: aqua;
+width: 700px;
+}
+
+.p2{
+	border: 3px groove black;
+	width: 700px;
+}
+.p1{
+	border: 4px ridge black;
+	border-radius: 10px;
+	width: 700px;
+	color: lightpink;
+}

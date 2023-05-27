@@ -1,5 +1,4 @@
-h3
-{
-	color: green;
-	text-decoration: none;
+.one{
+    width: 300; height: 300;
+    border-top: 3px solid red;
 }
