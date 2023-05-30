@@ -1,0 +1,24 @@
+UL{
+     font-size: 30px; background-color: beige;
+     border: 2px solid antiquewhite;
+
+}
+A:hover{
+    border-right: 2px solid rebeccapurple; 
+
+}
+a{
+
+    display: inline-block;
+     text-align: center;
+     text-decoration: none; 
+     text-shadow: 2px 2px 0 red;
+     
+}
+img{
+    height:50px;
+}
+li{
+    margin: 30px; display: inline;
+   
+}

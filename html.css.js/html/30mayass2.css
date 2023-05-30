@@ -1,0 +1,28 @@
+ul{
+    /* background-color:aliceblue ; */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+img{
+    width: 20px;
+    /* border-radius: 50%; */
+    align-items: center;
+}
+a{
+    margin: 50px;
+    text-shadow: 0 0 3px red;
+    
+    
+}
+a:hover{
+    background-color: aquamarine;
+    border-bottom: 2px solid blue;
+}
+li{
+    display: inline-block;
+     border: 5px solid purple;
+      /* padding: 10px;   */
+    margin-left: 0px;
+}
