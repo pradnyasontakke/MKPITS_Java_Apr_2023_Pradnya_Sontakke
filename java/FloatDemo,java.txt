@@ -1,0 +1,6 @@
+class FloatDemo
+{
+static float number;
+public static void main(string args[])
+{
+system.out.println(number)}}
