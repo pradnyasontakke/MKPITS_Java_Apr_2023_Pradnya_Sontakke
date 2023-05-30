@@ -1,0 +1,19 @@
+UL{
+    /* display: flex; */
+   
+    
+color: blue; font-size: large;
+background-color: aliceblue;
+    
+}
+li{
+    
+    display: inline-block;
+}
+img{
+    width: 50px;
+    border-radius: 50%;
+}
+a{
+    margin: 40px;
+}

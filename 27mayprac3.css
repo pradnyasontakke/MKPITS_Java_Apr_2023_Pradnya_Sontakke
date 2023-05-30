@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+#p1{
+border: 3px dotted aquamarine; text-align: center ;
+color: brown;
+margin: 30px;
+width: 500px;
+}
+p.p2{
+    border: 3px solid red; text-align: center ;
+    margin: 30px;width: 500px;  color: blueviolet;
+}
+h3{
+    color: blue;margin: 30px;
+    text-align: center ;width: 500px;
+}
+body{
+    background-color: beige;margin: 30px;
+    text-align: center ;width: 500px;
+}
+h3,p{
+    border: 5px double black;margin: 30px; text-align: center ;width: 500px;
+}
+.p2 .p3{
+    color: purple; margin: 30px; text-align: center ;width: 500px; 
+    
+}
+.p3{
+    color: blue;
+}

@@ -1,0 +1,23 @@
+UL{
+    background-color: azure; border: 3px solid navy;
+    align-items: center;
+    display: flex;
+
+}
+a{
+    align-items: center;
+margin: 50px; text-decoration: none;
+}
+a:hover{
+background-color: beige; border-bottom: none;
+text-decoration: none; 
+}
+li{
+display: inline-block;
+
+}
+img{
+    width: 50px;
+    align-items: center;
+
+}

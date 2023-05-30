@@ -1,0 +1,22 @@
+ul{
+
+background-color: antiquewhite;
+}
+img{ 
+    height: 40px;
+}
+a:hover{ 
+    border: 2px solid rebeccapurple;
+}
+a{
+    text-decoration: none;
+    border: 2px solid red; 
+    text-align: center;}
+li{ 
+    display: inline; align-items: center;
+    /* border: 2px solid pink; */
+    margin-right: 20px;
+    text-align: center;
+    /* height: 40px;
+    width: 100%; */
+}
