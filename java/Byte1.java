@@ -6,6 +6,7 @@
 	{
 		return number1+number2;
 	}
+
 	 public static void main( String args[])
 	{
 		
