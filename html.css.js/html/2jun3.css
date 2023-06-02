@@ -1,0 +1,17 @@
+
+.static{
+    
+    background-color: rgb(6, 97, 177);
+     position: sticky; 
+     bottom: 10px;
+     bottom: 2px;
+    height: 100px;
+    width: 200px;
+    color: rgb(177, 169, 185);
+    border: 2px solid rgb(34, 25, 196);
+   
+}  
+.p1{
+    background-color: rgb(209, 191, 168);
+    position: absolute;
+}
