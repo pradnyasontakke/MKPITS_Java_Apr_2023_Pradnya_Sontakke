@@ -1,0 +1,17 @@
+
+ 
+ .static{
+    
+    background-color: aliceblue;
+     position: sticky; 
+     top: 0px;
+    height: 100px;
+    width: 100%;
+    color: blueviolet;
+    border: 2px solid red;
+   
+}  
+.p1{
+    background-color: antiquewhite;
+    position: absolute;
+}
