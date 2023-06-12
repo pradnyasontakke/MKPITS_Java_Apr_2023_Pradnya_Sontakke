@@ -1,0 +1,20 @@
+/* .container-fluid{
+    border: 3px solid rebeccapurple;
+    background-color: aquamarine;
+  text-shadow: 2px 2px 1px;
+
+}
+ */
+body{
+    background-color: rgb(220, 212, 203);
+
+}
+nav div form button:hover{
+    color: blueviolet;
+}
+ .navbar {
+    background-color: rgb(224, 24, 24);
+}
+.btn{
+    background-color: blueviolet;
+}
