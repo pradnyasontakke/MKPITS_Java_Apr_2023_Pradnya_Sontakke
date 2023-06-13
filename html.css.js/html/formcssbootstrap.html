@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration form</title>
+    <style>
+      
+     .form{
+        border: 4px solid rgb(19, 18, 18);
+        width: 500px;
+        background-color: aliceblue;
+     }  
+     h2{
+        color: brown;
+        font-size: 30px;
+        /* background-color: rgb(25, 130, 222); */
+     }
+     
+    </style>
+</head>
+
+
+<center><div class="form"><br>
+<!-- <body bgcolor="lightgray" > -->
+<h2>student registration form</h2><hr><hr><br>
+<label for="fname">first name</label>
+<input type="fname" id="fname"name="fname" placeholder="pradnya"><br><br>
+<label for="lname">last name</label>
+<input type="lmane" name="lname" id="lname"><br><br>
+<label for="email">email id</label>
+<input type="email" name="email" id="email" placeholder="abc@gmail.com"><br><br>
+<label for="mob">mobile</label>
+<input type="text" name="mob" id="mob" placeholder="1234567890"><br><br>
+<label for="gender">gender</label>
+<input type="radio" name="gender" id="gender">male
+<input type="radio" name="gender" id="gender">female
+<input type="radio" name="gender" id="gender">other<br><br>
+<label for="dob">dob</label>
+<input type="date" name="dob" id="dob"><br><br><hr><hr>
+<label for="address">address</label><br>
+<textarea name="textarea">write address here....</textarea><br><br>
+<label for="city">city</label>
+<input type="text" name="city" id="city" placeholder="nagpur"><br><br>
+<label for="state">state</label>
+<input type="text" name="state" id="state" placeholder="maharashtra"><br><br><hr><hr>
+<center><label for="hobbies">hobies</label></center>
+<!-- <input type="checkbox" name="city" id="d" >select -->
+<input type="checkbox" name="city" id="d" >drawing
+<input type="checkbox" name="city" id="r" >reading
+<input type="checkbox" name="city" id="s" >singing
+<input type="checkbox" id="d">dancing<br><br><hr> <hr>
+<label>choose your file</label>
+<input type="file" id="d"><br><br>
+<label for="link"></label>
+<a href="www.google.com" target="_blank">open google</a>
+<img src="hum.jpg" width="10" height="10" alt="tree"><br><br><hr><hr>
+
+<label for="department"> department</label>
+<select id="">
+    <option value="mine" >--select---</option>
+	<option value="mine" >mining</option>
+	<option value="civ" >civ</option>
+	<option value="mech" >mech</option>
+	<option value="cse" >cse</option>
+</select><br><br>
+<label>part of departments</label>
+<select>
+    <option value="mine" >--select---</option>
+	<optgroup label="it">it
+		<option value="hr">hr</option>
+		<option value="hr">mangr</option>
+		<option value="tl">tl</option>
+	</optgroup>
+	<optgroup label="it">pharma
+		<option value="hr">hr</option>
+		<option value="hr">mangr</option>
+		<option value="tl">tl</option>
+	</optgroup>
+</select><br><br>
+<datalist id="dl">
+	<option value="j" jammu>jannat</option>
+	<option value="m" mumbai>capital</option>
+	<option value="n" nagpur>orange</option>
+</datalist><br><br>
+<marquee width="300px" direction="left">this is left</marquee><br><br>
+
+
+<input type="submit" id="d">
+<input type="reset" id="d"><br><br>
+</div></center>
+</body>
+</html>
