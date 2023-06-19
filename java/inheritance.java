@@ -2,18 +2,22 @@ import java.util.List;
 
 class Bank{
     String Employeename;
-
-    List<Department> departments;
-
-
-
+     String departments;
+	 int custumeridd;
+	 String cabins;
+ 
 }
 class Loan extends Bank{
     String Loantype;
     Double LoanAmount;
+	    String custumer name;
+			 int custumeridd;
+		    
 }
 class Homeloan extends Loan{
     int roi;
+	float maturity time;
+	String HomeLoanType;
 }
 
 public class inheritance {

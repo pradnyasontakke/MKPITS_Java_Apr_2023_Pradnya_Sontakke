@@ -12,7 +12,7 @@ class Simplepen extends Pen{
     class  Gelpen extends Simplepen{
         String size;
         String Color;
-
+		    int Prize;
         }
 
         class colourPen extends Gelpen{

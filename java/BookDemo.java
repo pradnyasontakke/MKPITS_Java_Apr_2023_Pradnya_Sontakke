@@ -8,7 +8,8 @@ class TextBook extends Book{
     String TextbookName;
     Double size;
     int standatd;
-} class Novel extends TextBook{
+} 
+class Novel extends TextBook{
     String novelName;
     int NovelPrize;
     String authorname;

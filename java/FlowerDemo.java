@@ -3,7 +3,7 @@ class Flower{
     String Leafcolor;
     String FlowerType;
 }
-class Rose{
+class Rose extends Flower{
     String FlowerColor;
     Integer numberofrose;
 }
