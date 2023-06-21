@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(113, 109, 109), rgb(160, 160, 51), rgb(82, 82, 117));
+}
+/* background */
+body{
+    width: 100%; 
+    height: 100%;
+    /* background-image: url(girlimg.jpg); */
+background-size: cover;
+ background-position: 0%; 
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+    align-items: center;
+    display: inline-flex;
+    margin-left:140px;
+    padding: 2px;
+    margin-top: 20px;
+}
+ul li a:hover{
+    border: 2px soloid red;
+}
+a{
+    text-decoration: none;
+    color: brown;
+
+   
+}
+a:hover{
+    color: rgb(245, 222, 47);
+    border: 2px double blueviolet;
+    border-radius: 30px;
+}
+
+/* text name */
+ .header-text{
+    margin-top: 10%;
+    margin-right: 180px;
+    font-size: 30px;
+    /* margin-left: 0px;  */
+} 
+.header-text h3{
+font-size: 30px;
+margin-top: 20px;
+}
+.header-text h3 span{
+    color: blue;
+}
+.cv{
+    background: rgb(5, 5, 40);
+    margin: 30px;
+    width: 150px;  
+border-radius: 10%;
+font-size: 20px;
+margin-left: 380px;
+
+
+}
+.img{
+    margin-bottom: 0500px; 
+    margin-left: 500px;
+    position: absolute;
+    top: 10px;
+    margin-top: 40px;
+    width: 500px; 
+}
+/* ---------about----------- */
+h1{
+    margin-left: 120px;
+}
+#about{
+    padding:80px 0;
+    background-image: linear-gradient(rgb(113, 109, 109), rgb(160, 160, 51), rgb(82, 82, 117));
+    /* color: rgb(26, 213, 213); */
+    text-align: center;
+}
+h1{
+    color: brown;
+}
+.tab-links{
+    text-align: center;
+    margin-left: 180px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 60%;
+}
+.about-col-2
+{
+    flex: basis 60%;
+}
+.sub-titles{
+    font-size: 60px;
+    font-weight: 600;
+    color: blueviolet;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+

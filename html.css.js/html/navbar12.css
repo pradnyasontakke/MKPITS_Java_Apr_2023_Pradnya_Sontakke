@@ -1,0 +1,19 @@
+.navbar{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* text-decoration: none; */
+}
+ul li {
+    list-style-type: none;
+    align-items: center;
+    display: inline-flex;
+    margin-left:150px;
+    padding: 4px;
+   
+}
+a{
+    text-decoration: none;
+   
+}
