@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- addition,sub,mul,div and full name -->
+   <h1 id="h"></h1>
+   <button onclick="add()">add</button><br><br>
+   <button onclick="sub()">sub</button><br><br>
+   <button onclick="mul()">mul</button><br><br>
+   <button onclick="div()">div</button><br><br>
+   <button onclick="f_name()">name</button>
+
+ 
+ <script>
+  let x=10;
+   let y=30;
+   let first_name="pradnya";
+   let last_name="sontakke" ;
+
+    function add(){
+         z =x+y;
+         document.getElementById("h").innerHTML=z;
+    }
+
+    function sub(){
+         z =x-y;
+         document.getElementById("h").innerHTML=z;
+    }
+
+    function mul(){
+         z =x*y;
+         document.getElementById("h").innerHTML=z;
+    }
+
+    function div(){
+         z =x/y;
+         document.getElementById("h").innerHTML=z;
+    }
+    function f_name(){
+       let name=first_name+" "+last_name;
+        document.getElementById("h").innerHTML=name;
+    }
+ </script>
+</body>
+</html>

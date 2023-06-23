@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="arithmatic"></h1>
+    <button onclick="arith()">arithmatic operatio</button><br><br>
+
+    <h2 id="assignment"></h2>
+    <button onclick="assign()">assignment operatio</button><br><br>
+
+    <h1 id="string"></h1>
+    <button onclick="strng()"> string comparison</button><br><br>
+
+    <h1 id="comparison"></h1>
+    <button onclick="comp()">comparison operatio</button><br><br>
+
+    <h1 id="logical"></h1>
+    <button onclick="logic()">logical operatio</button><br><br>
+
+
+    <script>
+        // arithmatic  operator
+        let x=10;
+        let y=20
+        function arith(){
+            let z=(x+y);
+            let zx=(x-y);
+
+            // let y=(30+40-50*4)/x
+        document.getElementById("arithmatic").innerHTML=z;
+    }        document.getElementById("arithmatic").innerHTML=zx;
+
+
+
+        // assignment operator
+        var a=101;
+        function assign(){
+            a +=5;
+            document.getElementById("assignment").innerHTML=a;
+
+        }
+
+    // string comparison
+    let m="javascript";
+    let n="css";
+    function strng(){
+    let res=m>n;
+    document.getElementById("string").innerHTML=res;
+}
+
+
+//    logical operator
+
+function logic(){
+    let a=15;
+let b=20;
+    document.getElementById("logical").innerHTML=(a<20 && b>18)+"<br>"+(a<10 && b<30);
+
+}
+
+
+
+//ternary operator
+
+
+//comparison operator
+let s=19;
+function comp(){
+document.getElementById("comparison").innerHTML=(s==20);
+}
+
+   
+   </script>
+</body>
+</html>
