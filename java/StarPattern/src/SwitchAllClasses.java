@@ -24,6 +24,9 @@ public class SwitchAllClasses {
                 StarTimerPattern5 starTimerPattern5=new StarTimerPattern5();
                 starTimerPattern5.starTimer();
                 break;
+            case "pattern6":
+                NumberTimerPattern6 numberTimerPattern6=new NumberTimerPattern6();
+                numberTimerPattern6.numberTimer();
         }
 
         }
