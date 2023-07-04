@@ -1,5 +1,5 @@
-class Bank{
-    String Employeename;
+class  Bank{
+   String Employeename;
      String departments;
 	 int custumeridd;
 	 String cabins;
