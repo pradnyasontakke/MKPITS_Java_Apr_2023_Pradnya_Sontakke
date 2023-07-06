@@ -36,7 +36,7 @@ public class Main {
 
         Mobile mobile=new Mobile();
         System.out.println(mobile.mobileDemo(25788));
-        System.out.println(Mobile.mobileDemo(2389876,34566777);
+        System.out.println(Mobile.mobileDemo(2389876,34566777));
 
         Addition addition=new Addition();
         System.out.println(addition.demoAddition(4,12));
