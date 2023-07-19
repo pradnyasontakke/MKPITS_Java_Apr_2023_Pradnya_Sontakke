@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <h3>Calculator</h3>
+  
+  <input type="text" name ="value1" id="value1"><br><br>
+  <input type="text" name ="value2" id="value2"><br> <br>
+
+<button onclick="Addition()">+</button>
+<button onclick="Addition">-</button>
+<button onclick="Addition">*</button>
+<button onclick="Addition">/</button>
+<button onclick="Addition">%</button>
+
+  <!-- <label for="text">Result</label>
+  <input type="text" name ="Result" id="Result"> -->
+  <p id="Result">result</p>
+
+
+  <script>
+    function Addition(){
+        var a= parseInt(document.getElementById("value1").value);
+        var b=parseInt (document.getElementById("value2").value);
+    var c=a+b;
+       document.getElementById("Result").innerHTML=c;
+    }
+
+
+    function Substraction(){
+        document.getElementById(Result).value
+    }
+    function Multiplication(){
+
+        document.getElementById(Result).value
+    }
+    function Division(){
+        document.getElementById(Result).value
+    }
+    function Modulus(){
+        document.getElementById(Result).value
+    } 
+  </script>
+ 
+</body>
+</html>
