@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ 
+        /* h1{
+            text-align: center;
+            color: brown;
+            */
+        /* }
+        #div2{
+            display: none;
+            text-align: center;
+            border: 3px solid brown;
+            width: 300px;
+            height: 200px;
+            margin-left: 450px;
+        }
+        #div1{
+          
+            width: 300px;
+            height: 200px;
+            margin-left: 450px;
+        }
+        .btn{
+           margin-left: 15px;
+        } */
+      
+        
+    </style>
+</head>
+<body><br><br><br>
+
+    <div id="div1"><p><img src="img/Screenshot__49_-removebg-preview.png" alt=""></p>
+        <button class="btn" onclick="button()">click </button></div>
+    <div id="div2"><p><video src="img/walking.mp4" controls="autoplay"></video><br>
+    <button class="btn" onclick="button()">click </button></p></div>
+
+  
+  
+
+<script>
+ function button()
+ {
+if(document.getElementById('div1').style.display=='none')
+{
+ document.getElementById('div1').style.display='block';
+ document.getElementById('div2').style.display='none';
+
+ }
+ else
+ {
+    document.getElementById('div1').style.display='none';
+    document.getElementById('div2').style.display='block';
+
+ }
+ }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+   

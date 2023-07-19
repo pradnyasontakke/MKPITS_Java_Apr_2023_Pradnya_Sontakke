@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            /* background-image: url(img/room1.jpg); */
+           
+         background: url(img/room1.jpg);
+         background-repeat: no-repeat;
+         background-size: 100%;
+
+        }
+ 
+        h1{
+            text-align: center;
+            color: brown;
+           
+        }
+        #div2{
+             position: relative;
+            display: none;
+            /* text-align: center;  */
+           
+            width: 300px;
+            height: 200px;
+            margin-left: 150px; 
+           
+        }
+        #div1{
+             /* text-align: center; */
+           position: relative; 
+         
+             width: 300px;
+            height: 200px;
+            margin-left: 150px; 
+        }
+        .btn {
+          position: absolute;
+          left: 100px;
+          margin: top 20px; 
+          margin-left:140px ;
+
+          
+         
+        }
+        img{
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body class="w-100">
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div id="div1"><img src="img/bulboff-removebg-preview.png" alt="">
+                <button class="btn" onclick="button()">click </button></div>
+          </div>
+          <div class="col">
+            <div id="div2"><img src="img/bulbon-removebg-preview.png" alt=""><br>
+                <button class="btn" onclick="button()">click </button></div>
+          </div>
+        
+        </div>
+      </div>
+
+      <script>
+        function button()
+        {
+       if(document.getElementById('div1').style.display=='none')
+       {
+        document.getElementById('div1').style.display='block';
+        document.getElementById('div2').style.display='none';
+       
+        }
+        else
+        {
+           document.getElementById('div1').style.display='none';
+           document.getElementById('div2').style.display='block';
+       
+        }
+        }
+       </script>
+</body>
+</html>
