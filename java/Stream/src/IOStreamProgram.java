@@ -9,13 +9,15 @@ public class IOStreamProgram
     {
         //create object of buffered input stream convert byte to character
         //in is the input stream data which is store in br for communicating this we use
-        //input stream reader
+        //input stream reader read from keyboard
      BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
      //enter msg
         System.out.println("enter number ");
         try
         {
+            //read single line of data, method of string object
            String nm=br.readLine();
+           //
             System.out.println("cube "+(Integer.parseInt(nm)*Integer.parseInt(nm)*Integer.parseInt(nm)));
         }catch (IOException e)
         {
@@ -23,3 +25,4 @@ public class IOStreamProgram
         }
     }
 }
+
