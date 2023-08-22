@@ -25,7 +25,7 @@ public class Main {
             {
                 System.out.println("target file");
                 String fname2=b.readLine();
-                FileRaadWrite.filecopy(fname1,fname2);
+               // FileRaadWrite.filecopy(fname1,fname2);
             }
             else
                 System.out.println("does not exist");

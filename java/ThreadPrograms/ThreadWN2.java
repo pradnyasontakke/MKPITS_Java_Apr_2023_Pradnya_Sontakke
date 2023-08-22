@@ -6,7 +6,7 @@ public class ThreadWN2 extends Thread
     public void run()
     {
         synchronized (this) {
-            for (int i = 0; i<=100; i++)
+            for (int i = 0; i<=500; i++)
                 total += i;
             notify();
         }
