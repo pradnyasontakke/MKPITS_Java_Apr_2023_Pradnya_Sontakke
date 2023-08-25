@@ -1,3 +1,6 @@
-Array
-inheritance
-file han dl ing x
+(millions),H01,Total income,Financial performance,"48,731",ANZSIC06 division A
+2021,Level 1,AA,"Agriculture, Forestry and Fishing",Dollars (millions),H04,Sales of goods and services,Financial performance,"45,650",ANZSIC06 division A
+2021,Level 1,AA,"Agriculture, Forestry and Fishing",Dollars (millions),H05,"Interest, dividends and donations",Financial performance,640,ANZSIC06 division A
+2021,Level 1,AA,"Agriculture, Forestry and Fishing",Dollars (millions),H06,"Government funding, grants and subsidies",Financial performance,279,ANZSIC06 division A
+2021,Level 1,AA,"Agriculture, Forestry and Fishing",Dollars (millions),H07,Non-operating income,Financial performance,"2,163",ANZSIC06 division A
+2021,Level 1,AA,"Agriculture, Forestry and Fishing",Dollars (millions),H08,Total expenditure,Financial performance,"40,696",ANZSIC06 division A
