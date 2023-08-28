@@ -1,3 +1,7 @@
+//menue driven program. add, display,find, delete,deleteall
+
+
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
