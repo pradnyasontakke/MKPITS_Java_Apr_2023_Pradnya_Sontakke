@@ -1,4 +1,4 @@
-//menue driven program. add, display,find, delete,deleteall
+//menu driven program. add, display,find, delete,deleteAll
 
 
 
