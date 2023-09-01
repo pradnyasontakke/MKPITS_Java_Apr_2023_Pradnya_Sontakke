@@ -8,6 +8,6 @@ public interface Shape {
     static void displaySize()
     {
 
-//        System.out.println(size);
+       System.out.println(size);
     }
 }
