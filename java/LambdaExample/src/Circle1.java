@@ -1,6 +1,6 @@
 interface Circle
 {
-  void calArea(int r);         //method call
+  void calArea(int r);         // abstract method call
 
   }
 public class Circle1{

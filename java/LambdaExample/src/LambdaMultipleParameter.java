@@ -4,8 +4,8 @@ interface MultipleParameterPass{
 public class LambdaMultipleParameter
 {
     public static void main(String[] args) {
-        MultipleParameterPass multipleParameterPass=(number1, number2) ->
-        System.out.println("addition is "+number1+number2);
+        MultipleParameterPass multipleParameterPass=( int number1, int number2) ->
+        System.out.println("addition is "+ (number1+number2));
         multipleParameterPass.add(77,99);
     }
 }
