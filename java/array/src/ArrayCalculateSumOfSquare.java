@@ -1,4 +1,4 @@
 public class ArrayCalculateSumOfSquare{
-	SumOfarray sumofarray=new SumOfarray();
+	//SumOfarray sumofarray=new SumOfarray();
 	
 }

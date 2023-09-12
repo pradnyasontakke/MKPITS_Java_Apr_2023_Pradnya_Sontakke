@@ -1,5 +1,5 @@
 class Homeloan extends Loan{
     int roi;
-	float maturity time;
+	float maturitytime;
 	String HomeLoanType;
 }

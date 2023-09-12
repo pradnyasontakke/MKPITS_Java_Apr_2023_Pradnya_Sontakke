@@ -1,7 +1,7 @@
 class Loan extends Bank{
     String Loantype;
     Double LoanAmount;
-	    String custumer name;
+	    String custumername;
 			 int custumeridd;
 		    
 }
