@@ -14,30 +14,34 @@ class Main {
         //switch example
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter the numbers");
+
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        System.out.println("enter the choice");
         int choice = scanner.nextInt();
 
-        int number1 = scanner.nextInt();
-        int number2 = scanner.nextInt();
+
+
 
         switch (choice) {
             case 1:
                 Calculation calculation = () ->
-                        System.out.println("addition is " + (number1 + number2));
+                        System.out.println("addition is " + (a+b));
                 calculation.Total();
                 break;
 
-//            case 2:
-//                Calculation calculation1=(number1,number2) ->
-//                        System.out.println("Subtraction is "+(number1-number2));
-//                calculation1.Total(188,99);
-//            case 3:
-//                Calculation calculation2=(number1,number2) ->
-//                        System.out.println("multiplication is "+(number1*number2));
-//                calculation2.Total(88,99);
-//            case 4:
-//                Calculation calculation3=(number1,number2) ->
-//                        System.out.println("division is "+(number1%number2));
-//                calculation3.Total(88,9);
+            case 2:
+                Calculation calculation1=() ->
+                        System.out.println("Subtraction is "+(a-b));
+                calculation1.Total();
+            case 3:
+                Calculation calculation2=() ->
+                        System.out.println("multiplication is "+(a*b));
+                calculation2.Total();
+            case 4:
+                Calculation calculation3=() ->
+                        System.out.println("division is "+(a%b));
+                calculation3.Total();
 
 
         }

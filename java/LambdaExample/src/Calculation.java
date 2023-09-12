@@ -1,5 +1,6 @@
 interface Calculation
 {
+
    void Total ();
 
 }
