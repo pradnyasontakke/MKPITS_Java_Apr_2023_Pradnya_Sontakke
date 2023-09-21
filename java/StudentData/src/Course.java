@@ -38,5 +38,8 @@ public class Course {
     {
 
     }
+
+    public void add(Course course) {
+    }
 }
 
