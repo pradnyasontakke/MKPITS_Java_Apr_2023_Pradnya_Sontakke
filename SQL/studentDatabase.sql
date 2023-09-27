@@ -37,10 +37,30 @@ select * from students where rollno='1005'
 delete from students where rollno='1002'
 delete from markdetails where rollno='1002'
 
-update students set address='nagpur', where rollno='1005'
+update students set address='nagpur' where rollno='1003'
+
+alter table students add state varchar(20)
+insert into students values ( 'maharashtra')
+
+alter table markdetails add address varchar(20)
+insert into students values ( 'nagpur')
+update markdetails set address='nagpur' where address is null
+select * from markdetails
+update students set state='maharashtra' where rollno='1004'
+update students set state='maharashtra' where state is null
+select * from students order by studname desc
+
+alter table students modify column state varchar(20) after studname
+select *from students
+desc students
+select address  from students left join markdetails
+on markdetails.add
 
 
-
+SELECT Orders.OrderID, Customers.CustomerName
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+ 
 
 
 

@@ -10,3 +10,5 @@ insert into bank values('sbi', 94578789, 'chandrapur')
 
 select * from bank where address='pune'
 select accno from bank where accno
+select * from students order by name,state
+select database();
