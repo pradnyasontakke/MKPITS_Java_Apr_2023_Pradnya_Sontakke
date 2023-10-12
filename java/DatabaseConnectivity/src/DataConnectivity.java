@@ -1,20 +1,24 @@
-
-public class DatabaseConnectivity {
-    public static void main(String[] args) {
-
-
-    }
-}
+//database connectivity
+//
 
 
 
 
 import java.sql.*;
 
-public class ConnectivityOFDatabase {
-    static Connection connection;
+public class DataConnectivity {
+    static  Connection connection;       //create object
+    public static void dbCon() throws SQLException
+    {
+       try{
+           
+    }
+    }
+    public static void main(String[] args) {
 
-    public static void dbcon() throws SQLException {
+
+    }
+}
 
         try {
             //driver loading
