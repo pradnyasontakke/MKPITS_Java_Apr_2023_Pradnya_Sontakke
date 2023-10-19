@@ -1,0 +1,50 @@
+51.	Get the names of customers who have rented the film titled "Golden Groove".
+52.	Retrieve the rental date and return date for each rental made by customer "Laura Martinez".
+53.	List the film titles and rental dates for all rentals made by customer "John Johnson".
+54.	Display the first name, last name, and email of customers who have rented the film titled "Spice Sorcerer".
+55.	Get the film titles and rental dates for all rentals made on September 5, 2005.
+56.	Retrieve the film titles rented by the customer with customer_id 1400.
+57.	List the rental date and return date for all rentals made by customer "Sarah Thomas".
+58.	Display the names of customers who have rented the film titled "Scream Human".
+59.	Get the first name, last name, and email of customers who have rented more than 15 films.
+60.	Retrieve the film titles and rental dates for all rentals made by the customer with customer_id 1500.
+61.	List the rental date and rental duration for each rental made by customer "Paul Jackson".
+62.	Display the film titles rented by the customer with customer_id 1600.
+63.	Get the names of customers who have rented the film titled "Princess Giant".
+64.	Retrieve the rental date and return date for each rental made by customer "Mary Harris".
+65.	List the film titles and rental dates for all rentals made by customer "Robert Smith".
+66.	Display the first name, last name, and email of customers who have rented the film titled "Matrix Family".
+67.	Get the film titles and rental dates for all rentals made on October 20, 2005.
+68.	Retrieve the film titles rented by the customer with customer_id 1700.
+69.	List the rental date and return date for all rentals made by customer "Donald Davis".
+70.	Display the names of customers who have rented the film titled "Chase Therapy".
+71.	Get the first name, last name, and email of customers who have rented more than 18 films.
+72.	Retrieve the film titles and rental dates for all rentals made by the customer with customer_id 1800.
+73.	List the rental date and rental duration for each rental made by customer "Amy Johnson".
+74.	Display the film titles rented by the customer with customer_id 1900.
+75.	Get the names of customers who have rented the film titled "Swordfish Tomatoes".
+76.	Retrieve the rental date and return date for each rental made by customer "George Davis".
+77.	List the film titles and rental dates for all rentals made by customer "Laura Anderson".
+78.	Display the first name, last name, and email of customers who have rented the film titled "Doom Dancing".
+79.	Get the film titles and rental dates for all rentals made on December 12, 2005.
+80.	Retrieve the film titles rented by the customer with customer_id 2000.
+81.	List the rental date and return date for all rentals made by customer "Kevin Johnson".
+82.	Display the names of customers who have rented the film titled "Firehouse Vietnam".
+83.	Get the first name, last name, and email of customers who have rented more than 20 films.
+84.	Retrieve the film titles and rental dates for all rentals made by the customer with customer_id 2100.
+85.	List the rental date and rental duration for each rental made by customer "Nancy Davis".
+86.	Display the film titles rented by the customer with customer_id 2200.
+87.	Get the names of customers who have rented the film titled "Gang Related".
+88.	Retrieve the rental date and return date for each rental made by customer "Thomas Johnson".
+89.	List the film titles and rental dates for all rentals made by customer "Sarah Harris".
+90.	Display the first name, last name, and email of customers who have rented the film titled "Frankenstein Stranger".
+91.	Get the film titles and rental dates for all rentals made on November 8, 2005.
+92.	Retrieve the film titles rented by the customer with customer_id 2300.
+93.	List the rental date and return date for all rentals made by customer "Laura Taylor".
+94.	Display the names of customers who have rented the film titled "Intrigue Worst".
+95.	Get the first name, last name, and email of customers who have rented more than 22 films.
+96.	Retrieve the film titles and rental dates for all rentals made by the customer with customer_id 2400.
+97.	List the rental date and rental duration for each rental made by customer "James Clark".
+98.	Display the film titles rented by the customer with customer_id 2500.
+99.	Get the names of customers who have rented the film titled "Gang Terms".
+100.	Retrieve the rental date and return date for each rental made by customer "Michelle Johnson".

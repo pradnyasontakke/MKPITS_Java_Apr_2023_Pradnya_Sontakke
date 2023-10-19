@@ -1,24 +1,29 @@
 create database shop
+use shop
+create table product_details(product_id int primary key, product_name varchar(20), amount int )
 
-create table product_details(product_id int, product_name varchar(20), amount int )
-
-create table billing(product_id int , billingNumber int )
+create table product_billing(product_id int , billno int )
 
 insert into product_details values (1,'soap',40);
 insert into product_details values (2,'bottle',140);
-insert into product_details values (3,'maggi',50);
-insert into product_details values (4,'tiffin',240);
-insert into product_details values (5,'book',400);
 
 select * from product_details
 select * from billing 
-selct * from total
 
 delimiter //
-create trigger table 
-after insert on billing for each row
+create trigger tableTotal 
+after update on product_details for each row
 begin
-insert into total values()
-end;
-delimiter 
+update product_billing
+set billno=(new.product_id,new.billno)
+ where product_id=new.product_id;
+ end;
+ //
+delimiter ;
+
+
+
+
+
+
 

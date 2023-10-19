@@ -1,0 +1,29 @@
+Trigger to Update Rental History:
+Create a trigger that updates the rental history table whenever a new rental record is inserted into the rental table.
+
+Trigger to Enforce Rental Limit:
+Create a trigger that prevents rentals if a customer has exceeded their rental limit.
+
+Trigger to Update Inventory on Rental:
+Create a trigger that updates the inventory table when a movie is rented, reducing the available copies.
+
+Trigger to Calculate Late Fees:
+Create a trigger that calculates and updates late fees when a rental is returned late.
+
+Trigger to Maintain Customer Bonus Points:
+Create a trigger that updates customer bonus points based on rental history and returns.
+
+Trigger to Notify Overdue Rentals:
+Create a trigger that sends a notification (e.g., email) to customers for overdue rentals.
+
+Trigger to Update Customer Status:
+Create a trigger that updates the customer status based on the number of rentals they have made.
+
+Trigger to Update Film Availability:
+Create a trigger that updates the film availability status when a film is added or removed from the inventory.
+
+Trigger to Track High-Demand Films:
+Create a trigger that tracks and updates a table with information about films that are in high demand based on rental frequency.
+
+Trigger to Log User Activity:
+Create a trigger that logs user activity, such as inserts, updates, or deletes, into a designated table for auditing purposes.
