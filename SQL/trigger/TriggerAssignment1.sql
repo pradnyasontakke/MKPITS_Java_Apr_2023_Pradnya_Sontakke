@@ -1,7 +1,6 @@
 /*Trigger to Update Rental History:
 Create a trigger that updates the rental history table whenever a new rental record is inserted into the rental table.*/
 
-create database sakila
 use sakila
 select * from rental
 

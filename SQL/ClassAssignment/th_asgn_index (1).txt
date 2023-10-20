@@ -1,0 +1,7 @@
+1. What is an index in SQL, and how does it improve query performance?
+
+2. Explain the purpose and benefits of a clustered index and a non-clustered index. When would you use one over the other?
+
+3. Describe the steps involved in creating an index for a table in SQL. What considerations should be taken into account when creating an index?
+
+4. Discuss scenarios where indexing might not be beneficial or could potentially degrade database performance.

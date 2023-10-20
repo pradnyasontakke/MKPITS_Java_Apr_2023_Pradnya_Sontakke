@@ -14,6 +14,7 @@ create table emp as(select * from employee where 1=2)
 select * from emp
 drop table emp
 create table emp as select * from employee
-select * from emp
+select * from emp ,employee
+
 
 
