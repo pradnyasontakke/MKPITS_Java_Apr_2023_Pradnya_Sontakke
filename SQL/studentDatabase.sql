@@ -6,6 +6,10 @@ create table students
  address varchar(15))
 select * from students
 
+create table student1
+(rollno char(5) primary key, name char(10),city char(10),
+ address varchar(15))
+
 
 create table markdetails
 (rollno char(5), physics int,chemishry int, math int,

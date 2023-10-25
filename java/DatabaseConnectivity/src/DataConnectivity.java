@@ -27,6 +27,7 @@
 //            throw new RuntimeException(e);
 //        }
 //        System.out.println("driver loaded");
+
 //        //establish connection
 //        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/student", "root", "109Trupti@109");
 //        System.out.println("connection established");
