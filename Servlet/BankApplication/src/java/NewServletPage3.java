@@ -10,6 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -31,13 +32,27 @@ public class NewServletPage3 extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
+            HttpSession hs=request.getSession(true);
+            out.println("<br>");
+            out.println(hs);
+            out.println("<br>");
+            out.println(hs.getId());
+            out.println("<br>");
+            out.println(new java.sql.Date(hs.getCreationTime()));
+            out.println("<br>");
+            out.println(hs.getMaxInactiveInterval());
+            out.println("<br>");
+            out.println(hs.isNew());
+            out.println("<br>");
+            out.println(hs.isNew());
+            out.println("<br>");
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
             out.println("<title>Servlet NewServletPage3</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet NewServletPage3 at " + request.getContextPath() + "</h1>");
+            out.println("");
             out.println("</body>");
             out.println("</html>");
         }

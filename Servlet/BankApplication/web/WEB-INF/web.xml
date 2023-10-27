@@ -16,6 +16,14 @@
         <servlet-name>NewServletPage3</servlet-name>
         <servlet-class>NewServletPage3</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Deposit</servlet-name>
+        <servlet-class>Deposit</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Welcome</servlet-name>
+        <servlet-class>Welcome</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>BankApplication</servlet-name>
         <url-pattern>/BankApplication</url-pattern>
@@ -31,6 +39,14 @@
     <servlet-mapping>
         <servlet-name>NewServletPage3</servlet-name>
         <url-pattern>/NewServletPage3</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Deposit</servlet-name>
+        <url-pattern>/Deposit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Welcome</servlet-name>
+        <url-pattern>/Welcome</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

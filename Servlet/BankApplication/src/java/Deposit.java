@@ -6,9 +6,6 @@
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author LENOVO
  */
-public class AfterRegistration extends HttpServlet {
+public class Deposit extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -34,24 +31,17 @@ public class AfterRegistration extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            String uId=request.getParameter("name");
-          String pw=request.getParameter("pw");
-          
-          try{
-                 Class.forName("com.mysql.cj.jdbc.Driver");
-                 Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
-                   PreparedStatement preparedStatement = connection.prepareStatement("insert into Registration values(?,?,?,?,?,?,?)");
-                     preparedStatement.setString(1,uId);
-                      preparedStatement.setString(2,pw);
-                       }catch(Exception e){
-                   out.println(e);
-               }
+            String userId = request.getParameter("userId");
+            String date = request.getParameter("date");
+            String amt = request.getParameter("amt");
+            
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet AfterRegistration</title>");            
+            out.println("<title>Servlet Deposit</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<h1>Servlet Deposit at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
