@@ -12,6 +12,10 @@
         <servlet-name>AfterRegistration</servlet-name>
         <servlet-class>AfterRegistration</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>NewServletPage3</servlet-name>
+        <servlet-class>NewServletPage3</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>BankApplication</servlet-name>
         <url-pattern>/BankApplication</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>AfterRegistration</servlet-name>
         <url-pattern>/AfterRegistration</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewServletPage3</servlet-name>
+        <url-pattern>/NewServletPage3</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
