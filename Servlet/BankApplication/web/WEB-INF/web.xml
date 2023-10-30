@@ -2,7 +2,7 @@
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
         <servlet-name>BankApplication</servlet-name>
-        <servlet-class>BankApplication</servlet-class>
+        <servlet-class>Regishtration</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>RegistrationPage</servlet-name>
@@ -10,7 +10,7 @@
     </servlet>
     <servlet>
         <servlet-name>AfterRegistration</servlet-name>
-        <servlet-class>AfterRegistration</servlet-class>
+        <servlet-class>login</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>NewServletPage3</servlet-name>
@@ -53,4 +53,5 @@
             30
         </session-timeout>
     </session-config>
+
 </web-app>
