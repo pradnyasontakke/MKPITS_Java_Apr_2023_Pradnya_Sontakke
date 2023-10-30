@@ -10,20 +10,18 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
  * @author LENOVO
  */
-public class login extends HttpServlet {
+public class LoginPage extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -35,55 +33,54 @@ public class login extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException, ClassNotFoundException, SQLException {
+            throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-          String uid=request.getParameter("name");
-            String pass_word=request.getParameter("pw");
-          
-          try{
-          
-          Class.forName("com.mysql.cj.jdbc.Driver");
-          
-          Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
-         
-          
-          PreparedStatement preparedStatement = connection.prepareStatement("Select * from  Registration where  userId=? and password=?");
-                     preparedStatement.setString(1,uid);
-                      preparedStatement.setString(2,pass_word);
-                      
-                      
-                       out.println("<!DOCTYPE html>");
+            /* TODO output your page here. You may use following sample code. */
+             String user = request.getParameter("uid");
+            String password = request.getParameter("pw");
+            try{
+                   Class.forName("com.mysql.cj.jdbc.Driver");
+                   
+                 Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
+   PreparedStatement preparedStatement =connection.prepareStatement("select * from Registration where userID=? and password=?");
+            preparedStatement.setString(1,user);
+            preparedStatement.setString(2,password);
+            
+            
+             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet BankApplication</title>");            
+            out.println("<title>Servlet LoginPage</title>");            
             out.println("</head>");
             out.println("<body>");
             
-                    ResultSet resultset=preparedStatement.executeQuery();
-                    if(resultset.next()){
-                    
-                    RequestDispatcher requestdspatcher=request.getRequestDispatcher("welcome.html");
-                   requestdspatcher.forward(request,response);
-                    }
-                    else{
-                    
-                    out.println("Invalid User Id");
-                    }
-                    
-                         
-                            
-                      
-                      
-          
-          }
-          catch(Exception e){
-          out.println(e);
-          }
-          out.println("</body>");
+              ResultSet resultSet= preparedStatement.executeQuery();
+                 if(resultSet.next()){
+            out.println("Successfully login");
+            
+            
+            //get user id using session trcking
+            HttpSession httpsession=request.getSession(true);
+           // out.println(httpsession);
+           // out.println(httpsession.getId());
+            
+            httpsession.setAttribute("f",user);
+           // out.println(httpsession.getAttribute("f"));
+            
+            
+            
+          RequestDispatcher sendrequest=request.getRequestDispatcher("welcome.html");
+            sendrequest.forward(request, response);
+            }
+            else{
+            out.println("Incorrect Password ");
+            }
+            
+            }catch(Exception e){out.println(e);}
+            out.println("</body>");
             out.println("</html>");
-          
-              
+       
         }
     }
 
@@ -99,13 +96,7 @@ public class login extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        try {
-            processRequest(request, response);
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(login.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (SQLException ex) {
-            Logger.getLogger(login.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        processRequest(request, response);
     }
 
     /**
@@ -119,13 +110,7 @@ public class login extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        try {
-            processRequest(request, response);
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(login.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (SQLException ex) {
-            Logger.getLogger(login.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        processRequest(request, response);
     }
 
     /**

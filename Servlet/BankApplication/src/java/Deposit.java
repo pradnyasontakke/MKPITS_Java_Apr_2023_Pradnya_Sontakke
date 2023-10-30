@@ -37,29 +37,30 @@ public class Deposit extends HttpServlet {
         {
             /* TODO output your page here. You may use following sample code. */
             String str="deposite";       //i want to show the msg in database which type of amount is inserted
-//               int addAmount=Integer.parseInt(request.getParameter("amt"));
+              int add_amount=Integer.parseInt(request.getParameter("amt"));
                      try{
+                         
                  Class.forName("com.mysql.cj.jdbc.Driver");
                  Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
-                 PreparedStatement preparedStatement = connection.prepareStatement("insert into Registration values(?,?,?)");
+                 PreparedStatement preparedStatement = connection.prepareStatement("insert into transaction values(?,?,?,?)");
                  
+                  
                  // add session
-               HttpSession http=request.getSession(true);
-                long dateTime=http.getCreationTime();
+               HttpSession httpsession=request.getSession(true);
+                long Time=httpsession.getCreationTime();
                    
-                preparedStatement.setString(1,(String)http.getAttribute("user ID"));
-               preparedStatement.setDate(2,new java.sql.Date(dateTime));
-               preparedStatement.setString(3,str);
+//                
+               preparedStatement.setString(1, (String) httpsession.getAttribute("f"));
+        preparedStatement.setDate(2,new java.sql.Date(Time));
+              preparedStatement.setInt(3,add_amount);
+               preparedStatement.setString(4,str);
                preparedStatement.executeUpdate();
-                 
-              
-                out.println("<h2>successfully deposited</h2>");
-            }catch (Exception e)
+               
+         
+                         out.println("jjjjjj");
+                     }catch (Exception e)
             {out.println(e);}
-            
-        
-           
-            
+              
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
