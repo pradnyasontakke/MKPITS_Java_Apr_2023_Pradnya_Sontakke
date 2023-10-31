@@ -61,12 +61,8 @@ public class LoginPage extends HttpServlet {
             
             
             //get user id using session trcking
-            HttpSession httpsession=request.getSession(true);
-           // out.println(httpsession);
-           // out.println(httpsession.getId());
-            
+            HttpSession httpsession=request.getSession(true);            
             httpsession.setAttribute("f",user);
-           // out.println(httpsession.getAttribute("f"));
             
             
             

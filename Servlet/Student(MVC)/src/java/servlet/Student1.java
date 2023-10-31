@@ -3,23 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+import model.Student;
 
 /**
  *
  * @author LENOVO
  */
-public class Deposit extends HttpServlet {
+public class Student1 extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -33,50 +31,27 @@ public class Deposit extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter())
-        {
+        try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            String str="deposite";       //i want to show the msg in database which type of amount is inserted
-              int add_amount=Integer.parseInt(request.getParameter("amt"));
-                     try{
-                         
-                 Class.forName("com.mysql.cj.jdbc.Driver");
-                 Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
-                 PreparedStatement preparedStatement = connection.prepareStatement("insert into transaction values(?,?,?,?)");
-                 
-                  
+            String nm=request.getParameter("name");
+            String ct=request.getParameter("city");
+            try{
+                Student student=new Student(System.in);
                 
-               HttpSession httpsession=request.getSession(true);
-                long Time=httpsession.getCreationTime();
-                  
-              
-               preparedStatement.setString(1, (String) httpsession.getAttribute("f"));
-        preparedStatement.setDate(2,new java.sql.Date(Time));
-              preparedStatement.setInt(3,add_amount);
-               preparedStatement.setString(4,str);
-               preparedStatement.executeUpdate();
-                          
-
-          preparedStatement =connection.prepareStatement("update  Registration set balance=balance+? where userID=?");               
-          preparedStatement.setInt(1,add_amount);
-         preparedStatement.setString(2, (String) httpsession.getAttribute("f"));
-          int r=preparedStatement.executeUpdate();
-
-                     }catch (Exception e)
-            {out.println(e);}
-              
+            }catch(Exception e){
+            out.println(e);}
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Deposit</title>");            
+            out.println("<title>Servlet Student1</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h2>successfully deposited</h2>");
+            out.println("<h1>Servlet Student1 at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
     }
-    
+
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.

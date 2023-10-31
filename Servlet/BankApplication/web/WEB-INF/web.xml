@@ -28,6 +28,10 @@
         <servlet-name>LoginPage</servlet-name>
         <servlet-class>LoginPage</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>withdraw</servlet-name>
+        <servlet-class>withdraw</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>BankApplication</servlet-name>
         <url-pattern>/BankApplication</url-pattern>
@@ -55,6 +59,10 @@
     <servlet-mapping>
         <servlet-name>LoginPage</servlet-name>
         <url-pattern>/LoginPage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>withdraw</servlet-name>
+        <url-pattern>/withdraw</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
