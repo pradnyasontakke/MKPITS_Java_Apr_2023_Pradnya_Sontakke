@@ -43,9 +43,9 @@ public class Deposit extends HttpServlet {
                  Class.forName("com.mysql.cj.jdbc.Driver");
                  Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
                  PreparedStatement preparedStatement = connection.prepareStatement("insert into transaction values(?,?,?,?)");
-                 
-                  
-                
+                 //preparedStatement is the interface and prepareStatement is the method of that
+  
+                //session tracking for the call
                HttpSession httpsession=request.getSession(true);
                 long Time=httpsession.getCreationTime();
                   

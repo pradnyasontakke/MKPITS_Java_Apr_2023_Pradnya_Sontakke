@@ -35,35 +35,33 @@ public class withdraw extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-             String str="withdraw";        
-           //  int amount=Integer.parseInt(request.getParameter("amt"));  //
-             
+            String str="withraw";
+            //int wd=Integer.parseInt(request.getParameter("withdraw"));
+            
             try{
-                
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                 Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
-                 PreparedStatement preparedStatement = connection.prepareStatement("insert into transaction values(?,?,?)");  
-           //preparedStatement prepare karanya sathi use karatat
-           
-           
-           //continue session from login page 
-           
-           HttpSession httpSession=request.getSession(true);
-           //update date in time data type is long 
-           long time=httpSession.getCreationTime();
-         
-             out.println("hii");
-           //we can set the session  which is get the session and in login page its set the session store in f
-           preparedStatement.setString(1, (String) httpSession.getAttribute("f"));
-           //update the date using getCreationTime()
-         preparedStatement.setDate(2,new java.sql.Date(time) );
-         //update 
-           // preparedStatement.setInt(3, amount);
-             preparedStatement.setString(3,str);
-              preparedStatement.executeUpdate();
-  out.println("bye");
-            }catch(Exception e){
-            out.println(e);}
+                Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
+                
+                PreparedStatement preparedstatement=connection.prepareStatement("insert into transaction values(?,?,?,?)");
+            
+               
+                HttpSession httpsession =request.getSession(true);
+                long time=httpsession.getCreationTime();
+                
+                
+               // preparedstatement.setParameter
+                preparedstatement.setString(1, (String) httpsession.getAttribute("f"));  //get userId
+                 preparedstatement.setDate(2,new java.sql.Date(time));                      //get date
+                 preparedstatement.setString(3, "withdraw"); 
+                preparedstatement.setString(4,str);
+                
+                preparedstatement=connection.prepareStatement("update  Registration set balance=balance-? where userID=?");
+                 preparedstatement.setString(1, "withdraw"); 
+                preparedstatement.setString(2, (String) httpsession.getAttribute("f"));  //get userId
+                int u=preparedstatement.executeUpdate();
+                out.println("bye");
+            }catch(Exception e){out.println (e);}
+             
            
 
             

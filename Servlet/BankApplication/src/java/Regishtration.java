@@ -34,7 +34,7 @@ public class Regishtration extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-          String uId=request.getParameter("name");
+          String uId=request.getParameter("uId");
           String pw=request.getParameter("pw");
           String name=request.getParameter("name");
            String address=request.getParameter("address");
