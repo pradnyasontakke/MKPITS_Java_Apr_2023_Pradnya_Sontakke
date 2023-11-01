@@ -36,7 +36,7 @@ public class withdraw extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             String str="withraw";
-            //int wd=Integer.parseInt(request.getParameter("withdraw"));
+            int wd=Integer.parseInt(request.getParameter("withdraw"));
             
             try{
                 Class.forName("com.mysql.cj.jdbc.Driver");
@@ -52,11 +52,13 @@ public class withdraw extends HttpServlet {
                // preparedstatement.setParameter
                 preparedstatement.setString(1, (String) httpsession.getAttribute("f"));  //get userId
                  preparedstatement.setDate(2,new java.sql.Date(time));                      //get date
-                 preparedstatement.setString(3, "withdraw"); 
+                 preparedstatement.setInt(3,wd);
+                // preparedstatement.setString(3, "withdraw"); 
                 preparedstatement.setString(4,str);
                 
                 preparedstatement=connection.prepareStatement("update  Registration set balance=balance-? where userID=?");
-                 preparedstatement.setString(1, "withdraw"); 
+                                 preparedstatement.setInt(1,wd);
+// preparedstatement.setString(1, "withdraw"); 
                 preparedstatement.setString(2, (String) httpsession.getAttribute("f"));  //get userId
                 int u=preparedstatement.executeUpdate();
                 out.println("bye");

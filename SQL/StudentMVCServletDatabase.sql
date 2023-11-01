@@ -2,8 +2,8 @@ create database StudentMVC
 use StudentMVC
 
 create table Stud_data
-(roll_no int primary key, name varchar(20));
-
+( name varchar(20) primary key,city varchar(20));
+drop table Stud_data
  select * from Stud_data
  
  

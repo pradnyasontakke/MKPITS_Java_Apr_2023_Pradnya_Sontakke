@@ -32,6 +32,10 @@
         <servlet-name>withdraw</servlet-name>
         <servlet-class>withdraw</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>TransferAmount</servlet-name>
+        <servlet-class>TransferAmount</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>BankApplication</servlet-name>
         <url-pattern>/BankApplication</url-pattern>
@@ -63,6 +67,10 @@
     <servlet-mapping>
         <servlet-name>withdraw</servlet-name>
         <url-pattern>/withdraw</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TransferAmount</servlet-name>
+        <url-pattern>/TransferAmount</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
