@@ -12,31 +12,30 @@
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.*" %>
 <%@ page import="java.sql.PreparedStatement" %>
+<%@ page import="jdk.internal.icu.impl.CharacterIteratorWrapper" %>
 <%
-    String nm=request.getParameter("name");
-    String ct=request.getParameter("city");
+
+    String nm = request.getParameter("name");
+    String ct = request.getParameter("city");
 
     try {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/StudentMVC", "root", "root");
-        PreparedStatement preparedStatement = connection.prepareStatement("insert into transaction values(?,?)");        preparedStatement.setString(1, nm);
+         PreparedStatement preparedStatement = connection.prepareStatement("insert into Stud_data values(?,?)");
 
-
-
+         preparedStatement.setString(1, nm);
         preparedStatement.setString(2, ct);
-        int result = preparedStatement.executeUpdate();
-        PrintWriter printWriter = response.getWriter();
-        if (result != 0) {
-            printWriter.println(" data inserted");
+
+        int result = preparedStatement.executeUpdate();     //we store result in int data type because of result show in true false format means if
+                                                           // if we put data in right format then got msg true means successful or false unsuccessful
+        if (result != 0) {             //check data match
+            out.println(" data inserted");
         } else {
-            printWriter.println(" data not inserted");
+            out.println(" data not inserted");
         }
-    }
+    } catch (Exception e) {
 
-    catch(Exception e){
-        PrintWriter printWriter = response.getWriter();
-
-        printWriter.println(e);
+        out.println(e);
     }
 %>
 
@@ -46,5 +45,6 @@
 </head>
 <body>
 
+<a href="DisplayTableJsp.jsp"> Display your Student details Table</a>    //link for the display data
 </body>
 </html>

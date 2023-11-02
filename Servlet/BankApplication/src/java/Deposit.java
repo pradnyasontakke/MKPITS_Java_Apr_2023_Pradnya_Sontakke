@@ -49,7 +49,7 @@ public class Deposit extends HttpServlet {
                HttpSession httpsession=request.getSession(true);
                 long Time=httpsession.getCreationTime();
                   
-              
+              //set data
                preparedStatement.setString(1, (String) httpsession.getAttribute("f"));
         preparedStatement.setDate(2,new java.sql.Date(Time));
               preparedStatement.setInt(3,add_amount);
@@ -60,10 +60,12 @@ public class Deposit extends HttpServlet {
           preparedStatement =connection.prepareStatement("update  Registration set balance=balance+? where userID=?");               
           preparedStatement.setInt(1,add_amount);
          preparedStatement.setString(2, (String) httpsession.getAttribute("f"));
-          int r=preparedStatement.executeUpdate();
+          int r=preparedStatement.executeUpdate(); //insert data in database
 
                      }catch (Exception e)
-            {out.println(e);}
+            {
+                out.println(e);
+            }
               
             out.println("<!DOCTYPE html>");
             out.println("<html>");

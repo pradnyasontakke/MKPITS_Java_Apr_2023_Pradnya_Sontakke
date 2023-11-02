@@ -1,8 +1,3 @@
-//in the transfer money firstly doing that where we want to out the money and in which user id  we want to in the money 
-
-
-
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -15,12 +10,13 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
  * @author LENOVO
  */
-public class TransferAmount extends HttpServlet {
+public class Logout extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -36,15 +32,23 @@ public class TransferAmount extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            
-          
+            try{
+              HttpSession httpsession=request.getSession();
+              httpsession.setAttribute("userId",null);
+              String result=(String)httpsession.getAttribute("userId");
+              
+              if(result==null){
+                  response.sendRedirect("index.html");
+              }
+              out.println( "logout successfully" );
+            }catch(Exception e)
+            {out.println(e);}
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet TransferAmount</title>");            
+            out.println("<title>Servlet Logout</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet TransferAmount at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }

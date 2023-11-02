@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>BankApplication</servlet-name>
+        <servlet-name>Regishtration</servlet-name>
         <servlet-class>Regishtration</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>RegistrationPage</servlet-name>
-        <servlet-class>RegistrationPage</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AfterRegistration</servlet-name>
-        <servlet-class>login</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>NewServletPage3</servlet-name>
-        <servlet-class>NewServletPage3</servlet-class>
-    </servlet>
+  
+  
     <servlet>
         <servlet-name>Deposit</servlet-name>
         <servlet-class>Deposit</servlet-class>
@@ -36,22 +26,19 @@
         <servlet-name>TransferAmount</servlet-name>
         <servlet-class>TransferAmount</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+    
+    
+   
+  
     <servlet-mapping>
-        <servlet-name>BankApplication</servlet-name>
-        <url-pattern>/BankApplication</url-pattern>
+        <servlet-name>Regishtration</servlet-name>
+        <url-pattern>/Regishtration</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>RegistrationPage</servlet-name>
-        <url-pattern>/RegistrationPage</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>AfterRegistration</servlet-name>
-        <url-pattern>/AfterRegistration</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>NewServletPage3</servlet-name>
-        <url-pattern>/NewServletPage3</url-pattern>
-    </servlet-mapping>
+   
     <servlet-mapping>
         <servlet-name>Deposit</servlet-name>
         <url-pattern>/Deposit</url-pattern>
@@ -71,6 +58,10 @@
     <servlet-mapping>
         <servlet-name>TransferAmount</servlet-name>
         <url-pattern>/TransferAmount</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

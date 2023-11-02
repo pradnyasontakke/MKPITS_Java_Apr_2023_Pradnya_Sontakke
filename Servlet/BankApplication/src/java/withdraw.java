@@ -61,7 +61,8 @@ public class withdraw extends HttpServlet {
 // preparedstatement.setString(1, "withdraw"); 
                 preparedstatement.setString(2, (String) httpsession.getAttribute("f"));  //get userId
                 int u=preparedstatement.executeUpdate();
-                out.println("bye");
+               out.println("Amount Withdraw Successfully");
+
             }catch(Exception e){out.println (e);}
              
            
@@ -73,7 +74,6 @@ public class withdraw extends HttpServlet {
             out.println("<title>Servlet withdraw</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("Amount Withdraw Successfully");
             out.println("</body>");
             out.println("</html>");
         }
