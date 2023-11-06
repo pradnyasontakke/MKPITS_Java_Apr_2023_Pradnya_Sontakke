@@ -6,6 +6,10 @@ create table Stud_data
 drop table Stud_data
  select * from Stud_data
  
+ insert into Stud_data values ('rajesh i', 'wardha');
+ 
+ desc Stud_data
+ 
  
  
 

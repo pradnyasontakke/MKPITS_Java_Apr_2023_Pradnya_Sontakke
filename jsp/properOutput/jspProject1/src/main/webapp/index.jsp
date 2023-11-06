@@ -20,7 +20,7 @@ create next servlet page for the insert data name is that JSPDataInsert.jsp
 <!DOCTYPE html>
 <html>
 <head>
-    <title>login </title>
+    <title>JSP - Hello World</title>
     <style>
 
             form{

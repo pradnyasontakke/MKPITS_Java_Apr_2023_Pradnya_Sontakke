@@ -22,7 +22,7 @@
             out.println("data inserted");
 
         } else {
-            out.println("data inserted");
+            out.println("data not inserted");
         }
     }catch (Exception e){
         out.println(e);

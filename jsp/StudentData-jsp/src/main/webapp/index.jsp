@@ -9,17 +9,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>LOGIN PAGE</title>
+    <STYLE>
+        form{
+            text-align: center;
+            border: solid darkred 2px;
+            background-size: 500px;
+            box-shadow: red;
+            width: 500px;
+        }
+    </STYLE>
 </head>
 <body>
+<center>
 <form action="InsertData.jsp">
+    <h1>LOGIN HERE </h1>
 <label>Name</label>
-<input type="text" name="nm" >
+<input type="text" name="nm" ><br><br>
 <label>City</label>
-<input type="text" name="ct">
-<input type="submit" name="sm" value="submit">
-<%--<a href="hello-servlet">Hello Servlet</a>--%>
-
-</form>
+<input type="text" name="ct"><br><br>
+<input type="submit" name="sm" value="submit"><br>
+</form></center>
 </body>
 </html>

@@ -11,10 +11,14 @@
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -36,6 +40,31 @@ public class TransferAmount extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
+            //in amount
+            String amountin="AmountIN  ";
+            String amount=request.getParameter("uid");
+            //out amount
+            String amountout="AmountOUT ";
+            String amount1=request.getParameter("amt");
+            
+            try{
+                Class.forName("com.mysql.cj.jdbc.Driver");
+                 Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
+                 PreparedStatement preparedStatement = connection.prepareStatement("insert into transaction values(?,?,?,?)");
+           
+                   HttpSession httpsession=request.getSession(true);
+                       long Time=httpsession.getCreationTime();
+                       
+        preparedStatement.setString(1, (String) httpsession.getAttribute("f"));
+        preparedStatement.setDate(2,new java.sql.Date(Time));
+              preparedStatement.setString(3,amount1);
+               preparedStatement.setString(4,amountout);
+               preparedStatement.executeUpdate();
+               out.println("hii");
+            
+            }catch(Exception e){
+            out.println(e);}
+            
             
           
             out.println("<!DOCTYPE html>");
@@ -90,3 +119,4 @@ public class TransferAmount extends HttpServlet {
     }// </editor-fold>
 
 }
+ 

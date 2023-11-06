@@ -7,11 +7,15 @@
         form{
             border: 2px solid darkred ;
             text-align: center;
+            width: 500px;
+            background: lightslategray;
+            margin-top: 50px;
+
         }
     </style>
 </head>
-<body>
-<form action="login" method="post">
+<body><center>
+<form action="Login.jsp" method="post">
 <table>
     <tr>
         <td><label>USER ID</label></td>
@@ -28,9 +32,9 @@
     </tr>
     <tr>
         <td><h4>new user</h4></td>
-        <td><h4>sign up</h4></td>
+        <td><a href="Regishtration.jsp"><h4>sign up</h4></a></td>
     </tr>
 </table>
-</form>
+</form></center>
 </body>
 </html>

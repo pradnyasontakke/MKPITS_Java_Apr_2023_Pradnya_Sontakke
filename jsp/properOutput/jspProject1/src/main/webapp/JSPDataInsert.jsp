@@ -45,6 +45,6 @@
 </head>
 <body>
 
-<a href="DisplayTableJsp.jsp"> Display Table</a>
+<a href="DisplayTableJsp.jsp"> Display your Student details Table</a>    //link for the display data
 </body>
 </html>
