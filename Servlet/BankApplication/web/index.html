@@ -10,12 +10,17 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            body{
+                background-color: lightgray;
+               
+            }
             
             form{
                 text-align: center;
-                border-style: solid;
+               border:ridge 10px brown ;
                width: 500px;
-               background: lightgray;  
+               background: aliceblue; 
+               margin-top: 150px;
             }
               h1{color: brown}
             
@@ -24,14 +29,14 @@ and open the template in the editor.
     </head>
     <body >
     <center>
-        <form action="LoginPage" method="post" >
-             <h1>...LOGIN PAGE...</h1><br><br><br>
-            <label>User Id</label>
+        <form action="LoginPage" method="post" ><br><br>
+             <h1>...LOGIN PAGE...</h1><br><br>
+             <label><b>USER ID</b></label>
             <input type="text" name="uid" placeholder="userId"><br><br>
-              <label>Password</label>
+            <label><b>PASSWORD</b></label>
             <input type="password" name="pw" placeholder="password"><br><br>
             <input type="submit" name="login" value="login here"><br><br>
-            <h4>New User ......<a href="RegistrationPage.html">Sign In</a></h4>
+            <h4>New User ......<a href="RegistrationPage.html">SIGN IN</a></h4><br><br>
         </form>
         </center>
     </body>

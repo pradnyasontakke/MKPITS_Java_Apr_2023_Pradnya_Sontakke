@@ -4,27 +4,35 @@
 <head>
     <title>login page</title>
     <style>
+        h1{
+            color: darkred;
+        }
+        body{
+            background-color: azure;
+        }
         form{
-            border: 2px solid darkred ;
+            border: 3px solid darkred ;
             text-align: center;
             width: 500px;
             background: lightslategray;
-            margin-top: 50px;
+            margin-top: 150px;
+            margin-left: 400px;
 
         }
     </style>
 </head>
-<body><center>
+<body>
 <form action="Login.jsp" method="post">
-<table>
+    <h1>...LOGIN HERE...</h1>
+    <center><table>
     <tr>
-        <td><label>USER ID</label></td>
+        <td><B><label>USER ID</label></B></td>
         <td><input type="text" name="uid"></td>
     </tr>
     <tr>
-        <td><label>PASSWORD</label></td>
+        <td><B><label>PASSWORD</label></B></td>
         <td><input type="text" name="pw"></td>
-    </tr><br>
+    </tr>
 
     <tr>
         <td><input type="submit" name="am" value="SUBMIT"></td>
@@ -34,7 +42,7 @@
         <td><h4>new user</h4></td>
         <td><a href="Regishtration.jsp"><h4>sign up</h4></a></td>
     </tr>
-</table>
-</form></center>
+</table></center>
+</form>
 </body>
 </html>

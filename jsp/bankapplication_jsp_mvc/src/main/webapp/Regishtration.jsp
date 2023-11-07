@@ -9,47 +9,66 @@
 <html>
 <head>
     <title>Registration</title>
+
+    <style>
+        form{
+            text-align: center;
+            border-style: solid;
+            width: 500px;
+            background: lightgray;
+            margin-top: 200px;
+            margin-left: 400px;
+       }
+        h1{color: brown}
+        tr{
+            margin-left: 100px;
+        }
+        body{
+            background-color: azure;
+        }
+
+    </style>
+</head>
     <form action="Registrationjsp.jsp" method="post">
-    <table>
+<h1>...REGISTERED HERE...</h1>
+        <center> <table>
         <tr>
-            <td><label>USER ID</label> </td>
+            <td><b><label>USER ID</label> </b></td>
             <td><input type="text" name="uid" placeholder="USER_ID"></td>
         </tr>
         <tr>
-            <td><label>PASSWORD</label> </td>
+            <td><b><label>PASSWORD</label> </b></td>
             <td><input type="text" name="pw" placeholder="password"></td>
         </tr>
         <tr>
-            <td><label>NAME</label> </td>
+            <td><b><label>NAME</label> </b></td>
             <td><input type="text" name="nm"></td>
         </tr>
         <tr>
-            <td><label>ADDRESS</label> </td>
+            <td><b><label>ADDRESS</label></b> </td>
             <td><input type="text" name="add"></td>
         </tr>
         <tr>
-            <td><label>CITY</label> </td>
+            <td><b><label>CITY</label></b> </td>
             <td><input type="text" name="ct"></td>
         </tr>
         <tr>
-            <td><label>EMAIL ID</label> </td>
-            <td><input type="text" name="eid" placeholder="EMAIL_ID"></td>
+            <td><b><label>EMAIL ID</label> </b></td>
+            <td><input type="text" name="eid"></td>
         </tr>
         <tr>
-            <td><label>BALANCE</label> </td>
+            <td><b><label>BALANCE</label></b> </td>
             <td><input type="text" name="bal"></td>
         </tr>
         <tr>
-            <td><input type="submit" name="sbmt" value="SUBMIT"></td>
-        </tr>
-        <tr>
-            <td><input type="reset" name="rst" value="RESET"></td>
+            <td><b><input type="submit" name="sbmt" value="SUBMIT"></b></td>
+            <td><b><input type="reset" name="rst" value="RESET"></b></td>
         </tr>
 
-    </table></form>
+   </table> </center><br><br></form>
 
 
-</head>
+
 <body>
 
 </body>

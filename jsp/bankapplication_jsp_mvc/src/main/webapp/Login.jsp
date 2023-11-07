@@ -21,10 +21,10 @@
 <%
 try{
 
-    ServiceBankApplication serviceBankApplication=new ServiceBankApplication();
+    ServiceBankApplication serviceBankApplication=new ServiceBankApplication();  //object of service class(controller)
     ResultSet resultSet=serviceBankApplication.InsertDataLogin(login);
 
-     if(resultSet.next())
+     if(resultSet.next())   // used to get the input from the user.
      {
            System.out.println("Successfully login");
         }
@@ -47,6 +47,6 @@ try{
     <title>Title</title>
 </head>
 <body>
-<h1>log</h1>
+<h1>login successfully</h1>
 </body>
 </html>

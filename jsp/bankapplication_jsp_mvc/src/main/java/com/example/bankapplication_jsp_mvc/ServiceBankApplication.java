@@ -9,11 +9,9 @@ public class ServiceBankApplication {
         Class.forName("com.mysql.cj.jdbc.Driver");
         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
     }
+    public ResultSet InsertDataLogin(BankAppUserDataJava bankAppUserDataJava) {//object of java class
 
-    public ResultSet InsertDataLogin(BankAppUserDataJava bankAppUserDataJava) {
-
-
-        ResultSet resultSet = null;
+        ResultSet resultSet = null;   //interface ResultSet
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("select * from Registration where userId=?and password=?");
             preparedStatement.setString(1, bankAppUserDataJava.getUserId());
@@ -23,10 +21,8 @@ public class ServiceBankApplication {
         } catch (Exception e) {
             out.println(e);
         }
-
         return resultSet;
     }
-
 public int InsertData(BankAppUserDataJava bankAppUserDataJava)
 {
 
