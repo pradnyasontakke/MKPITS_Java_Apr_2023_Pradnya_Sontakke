@@ -29,12 +29,12 @@ public class Regishtration extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response)//RECEIVES REQUEST FROM USER
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-          String uId=request.getParameter("u");    //uID is the object and second uid is the name where we write in html page
+          String uId=request.getParameter("u");    //GET PARAMETER uID is the object and second uid is the name where we write in html page
           String pw=request.getParameter("pw");
           String name=request.getParameter("nm");
            String add=request.getParameter("add");
@@ -55,8 +55,8 @@ public class Regishtration extends HttpServlet {
                      preparedStatement.setString(7,balance1);
 
                           preparedStatement.executeUpdate();
-                          out.println("Registered Successfully");
-            out.println("<a href="+"index.html"+">"+"click here"+"</a>");
+//                          out.println("Registered Successfully");
+            out.println("<a href="+"index.html"+">"+"click here for the login"+"</a>");
                           
              }catch(Exception e){
                    out.println(e);

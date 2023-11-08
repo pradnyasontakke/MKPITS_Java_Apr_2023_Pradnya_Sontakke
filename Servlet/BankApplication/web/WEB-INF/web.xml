@@ -4,8 +4,6 @@
         <servlet-name>Regishtration</servlet-name>
         <servlet-class>Regishtration</servlet-class>
     </servlet>
-  
-  
     <servlet>
         <servlet-name>Deposit</servlet-name>
         <servlet-class>Deposit</servlet-class>
@@ -30,15 +28,14 @@
         <servlet-name>Logout</servlet-name>
         <servlet-class>Logout</servlet-class>
     </servlet>
-    
-    
-   
-  
+    <servlet>
+        <servlet-name>Statement</servlet-name>
+        <servlet-class>Statement</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Regishtration</servlet-name>
         <url-pattern>/Regishtration</url-pattern>
     </servlet-mapping>
-   
     <servlet-mapping>
         <servlet-name>Deposit</servlet-name>
         <url-pattern>/Deposit</url-pattern>
@@ -62,6 +59,10 @@
     <servlet-mapping>
         <servlet-name>Logout</servlet-name>
         <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Statement</servlet-name>
+        <url-pattern>/Statement</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

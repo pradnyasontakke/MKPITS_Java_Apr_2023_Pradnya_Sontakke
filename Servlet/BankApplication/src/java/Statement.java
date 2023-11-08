@@ -1,19 +1,16 @@
-//in the transfer money firstly doing that where we want to out the money and in which user id  we want to in the money 
-
-
-
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
+import com.mysql.cj.protocol.Resultset;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -24,7 +21,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author LENOVO
  */
-public class TransferAmount extends HttpServlet {
+public class Statement extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -40,67 +37,61 @@ public class TransferAmount extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-           
-             try{
-            //out amount
-           String amount_out ="debit";
-              //in amount  (added amount)
-            String amount_in="credit";
             
-            String transferamountout=request.getParameter("amt");
+            try{
+                  Class.forName("com.mysql.cj.jdbc.Driver");
                    
-            String transferinid=request.getParameter("uid");
-            
-     
-           
-                Class.forName("com.mysql.cj.jdbc.Driver");
                  Connection connection =DriverManager.getConnection("jdbc:mysql://localhost:3306/Bank_Application", "root", "root");
-                 PreparedStatement preparedStatement = connection.prepareStatement("insert into transaction values(?,?,?,?)");
-                 
-                   //  for the out amount
-                   HttpSession httpsession=request.getSession(true);
-                       long Time=httpsession.getCreationTime();
-                       
-         //this code for the transfer html  page    where amount is inn (add) this is transaction user where amount inn           
-        preparedStatement.setString(1,transferinid);
-        preparedStatement.setDate(2,new java.sql.Date(Time));
-              preparedStatement.setString(3,transferamountout);
-               preparedStatement.setString(4,amount_in);
-               preparedStatement.executeUpdate();
-               
-               //write code in which user id amount is  deducted (main login user id)
-              preparedStatement= connection.prepareStatement("update Registration set balance=balance-? where userId=?");
-                    preparedStatement.setString(1,amount_in);  
-                   preparedStatement.setString(2, transferinid);
-                     
-                      preparedStatement.executeUpdate();
-                      
-                      
-                      //login user- transfer from those
-                    
-                      PreparedStatement preparedstatement=connection.prepareStatement("insert into transaction values(?,?,?,?)");
-                      preparedstatement.setString(1,(String)httpsession.getAttribute("f"));
-                      preparedstatement.setDate(2, new java.sql.Date(Time));
-                      preparedstatement.setString(3,transferamountout);
-                      preparedstatement.setString(4, amount_out);
-                      preparedstatement.executeUpdate();
-                      
-                      preparedstatement=connection.prepareStatement("update Registration set balance=balance+? where userId=?");
-                      preparedstatement.setString(1, amount_out);
-                      preparedstatement.setString(2,(String)httpsession.getAttribute("f"));
-                     
-                      preparedStatement.executeUpdate();
-
-               out.println("money transfer successfully");
-
-            }catch(Exception e){
-            out.println(e);}
-
+           
+            
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
+            out.println("<title>Servlet Statement</title>");            
             out.println("</head>");
             out.println("<body>");
+           PreparedStatement preparedStatement =connection.prepareStatement("Select * from transaction where userId=?");
+            HttpSession httpsession=request.getSession(true);
+            preparedStatement.setString(1, (String) httpsession.getAttribute("userId"));
+            ResultSet resultset= preparedStatement.executeQuery();
+               
+            
+        out.println("<h1><center>BANK STATEMENT</center></h1>");
+             out.println(" <table align=center border=1 cellspacing=0 cellpadding=10>"
+                    + "<tr>"
+                    +"<th>userId</th>"
+                    +"<th>Date</th>"
+                    +"<th>balabce</th>"
+                    +"<th>Type</th>"
+                    +"</tr>");
+                    while (resultset.next()) {       
+                    out.println("<tr>"
+                    +"<td>"+resultset.getString(1)+"</td>"
+                 
+                    +"<td>"+resultset.getDate(2)+"</td>"     
+                    +"<td>"+resultset.getString(3)+"</td>"     
+                    +"<td>"+resultset.getString(4)+"</td>"     
+                    + "</tr>");
+            }
+                    
+                    preparedStatement =connection.prepareStatement("Select balance from Registration where userId=?");
+             preparedStatement.setString(1, (String) httpsession.getAttribute("userId")); 
+          resultset=  preparedStatement.executeQuery();
+           
+                    while (resultset.next()) {       
+                    out.println("<tr>"
+                
+                  +"<td colspan=2></td>"
+                        
+                    +"<td >"+"Total="+resultset.getDouble(1)+"</td>"
+                            +"<td></td>"
+                    + "</tr>");
+            }
+            
+            out.println("</table");
+           
+            
+                 }catch(Exception e){out.println(e);}
             out.println("</body>");
             out.println("</html>");
         }
@@ -146,4 +137,3 @@ public class TransferAmount extends HttpServlet {
     }// </editor-fold>
 
 }
- 

@@ -34,6 +34,7 @@ public class Logout extends HttpServlet {
             /* TODO output your page here. You may use following sample code. */
             try{
               HttpSession httpsession=request.getSession();
+              
               httpsession.setAttribute("userId",null);
               String result=(String)httpsession.getAttribute("userId");
               
