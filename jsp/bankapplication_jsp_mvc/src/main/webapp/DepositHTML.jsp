@@ -25,7 +25,7 @@
 <body><center>
 <form action="Depositejsp.jsp" method="post">
     <h1>DEPOSIT PAGE</h1><br>
-    <label>Amount</label>
+    <label>AMOUNT</label>
     <input type="text" name="amt"><br><br>
     <input type="submit" name="submit" value="deposit">
 </form></center>

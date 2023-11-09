@@ -47,7 +47,7 @@ public class TransferAmount extends HttpServlet {
               //in amount  (added amount)
             String amount_in="credit";
             
-            String transferamountout=request.getParameter("amt");
+            String transferamountout=request.getParameter("amt");   //kuthe add hot ahe
                    
             String transferinid=request.getParameter("uid");
             
@@ -59,6 +59,7 @@ public class TransferAmount extends HttpServlet {
                  
                    //  for the out amount
                    HttpSession httpsession=request.getSession(true);
+                    String id=(String) httpsession.getAttribute("f");     //using getAttibrute we can get the id of session
                        long Time=httpsession.getCreationTime();
                        
          //this code for the transfer html  page    where amount is inn (add) this is transaction user where amount inn           
@@ -69,27 +70,23 @@ public class TransferAmount extends HttpServlet {
                preparedStatement.executeUpdate();
                
                //write code in which user id amount is  deducted (main login user id)
-              preparedStatement= connection.prepareStatement("update Registration set balance=balance-? where userId=?");
-                    preparedStatement.setString(1,amount_in);  
+              preparedStatement= connection.prepareStatement("update Registration set balance=balance+? where userId=?");
+                    preparedStatement.setString(1,transferamountout);  //where we want to add
                    preparedStatement.setString(2, transferinid);
-                     
                       preparedStatement.executeUpdate();
-                      
-                      
-                      //login user- transfer from those
-                    
-                      PreparedStatement preparedstatement=connection.prepareStatement("insert into transaction values(?,?,?,?)");
-                      preparedstatement.setString(1,(String)httpsession.getAttribute("f"));
-                      preparedstatement.setDate(2, new java.sql.Date(Time));
-                      preparedstatement.setString(3,transferamountout);
-                      preparedstatement.setString(4, amount_out);
-                      preparedstatement.executeUpdate();
-                      
-                      preparedstatement=connection.prepareStatement("update Registration set balance=balance+? where userId=?");
-                      preparedstatement.setString(1, amount_out);
-                      preparedstatement.setString(2,(String)httpsession.getAttribute("f"));
-                     
+                   
+                   PreparedStatement preparedStatement1= connection.prepareStatement("insert into transaction values(?,?,?,?)");
+                         preparedStatement1.setString(1,id);
+                         preparedStatement1.setDate(2, new java.sql.Date(Time));
+                         preparedStatement1.setString(3,transferamountout);
+                         preparedStatement1.setString(4,amount_out);
+                         preparedStatement1.executeUpdate();
+           
+                   preparedStatement= connection.prepareStatement("update Registration set balance=balance-? where userId=?");
+                    preparedStatement.setString(1,transferamountout);  //where we want to add
+                   preparedStatement.setString(2,id);
                       preparedStatement.executeUpdate();
+
 
                out.println("money transfer successfully");
 

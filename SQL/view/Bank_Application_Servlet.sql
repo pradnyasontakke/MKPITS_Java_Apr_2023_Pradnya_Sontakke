@@ -12,6 +12,7 @@ create table Registration
 insert into Registration values('pradnya123','12345','pradnya s','chatrapati sq','nagpur','p@gmail.com',50000);
 insert into Registration values('mina','12345','mina s','chatrapati sq','nagpur','mina@gmail.com',10000);
  select * from Registration
+ select * from transaction
  drop table Registration
  desc Registration    
  desc show the details
