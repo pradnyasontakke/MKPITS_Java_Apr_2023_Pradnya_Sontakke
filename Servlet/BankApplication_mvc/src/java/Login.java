@@ -31,6 +31,13 @@ public class Login extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
+            String loginid= (String) request.getAttribute("uid");
+                String password=(String) request.getAttribute("pw");
+            try{
+                
+                
+            }catch(Exception e){
+            out.println(e);}
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");

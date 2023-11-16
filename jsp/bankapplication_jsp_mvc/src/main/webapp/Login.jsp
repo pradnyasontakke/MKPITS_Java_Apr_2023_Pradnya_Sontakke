@@ -27,6 +27,9 @@ try{
      if(resultSet.next())   // used to get the input from the user.
      {
            System.out.println("Successfully login");
+           request.getSession(true);
+           session.setAttribute("LoginSessionId",login.getUserId());
+
         }
         else
         {
