@@ -70,7 +70,7 @@ public class BankAppUserDataJava {
     }
 
     public String getBalance() {
-        return  balance;
+        return balance;
     }
 
     public void setBalance(String balance) {

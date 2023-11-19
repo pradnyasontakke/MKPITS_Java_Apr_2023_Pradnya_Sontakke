@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background: gainsboro;
+        }
+        form{
+            text-align: center;
+            border: ridge 10px rosybrown;
+            width: 500px;
+            margin-top: 200px;
+            background: gainsboro;
+        }
+
+
+        h1{color: brown}
+
+
+    </style>
+</head>
+<body>
+<center>
+    <form action="transferPage.jsp" method="post" >
+        <h1>..TRANSFER AMOUNT..</h1><br><br><br>
+        <label>USER ID</label>
+        <input type="text" name="uid" placeholder="userId"><br><br>
+        <label>AMOUNT</label>
+        <input type="text" name="amt"><br><br>
+        <input type="submit" name="s" value="transfer">
+        <input type="reset" value="reset" name="r"><br><br>
+        <a href="Home.jsp"> Home</a><br><br>
+    </form>
+
+</center>
+</body>
+</html>

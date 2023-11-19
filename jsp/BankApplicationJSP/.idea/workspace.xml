@@ -5,32 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87e8049-a06a-46e9-9299-ad4e031bc348" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/src/main/java/com/example/banlaplicationjsp/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BanlAplicationJSP/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/src/main/java/com/example/jspproject2/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/src/main/java/com/example/jspproject2/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jspProject2/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bankapplication_jsp_mvc/src/main/webapp/WithdrawPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bankapplication_jsp_mvc/src/main/webapp/transferPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/ConstructorInjectionWithDependantObject/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/springexampleemployee/SpringExampleEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/springexampleemployee/SpringExampleEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bankapplication_jsp_mvc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bankapplication_jsp_mvc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bankapplication_jsp_mvc/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bankapplication_jsp_mvc/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bankapplication_jsp_mvc/src/main/webapp/Depositejsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bankapplication_jsp_mvc/src/main/webapp/Depositejsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bankapplication_jsp_mvc/src/main/webapp/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bankapplication_jsp_mvc/src/main/webapp/Home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bankapplication_jsp_mvc/src/main/webapp/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../bankapplication_jsp_mvc/src/main/webapp/Login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,30 +25,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2Xcq92zpWFoV2HjQtGakQkYj86p" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.55" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.55" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -96,6 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698938563899</updated>
       <workItem from="1698938564533" duration="778000" />
+      <workItem from="1700325415631" duration="18000" />
     </task>
     <servers />
   </component>

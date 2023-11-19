@@ -46,13 +46,29 @@ public class ServiceBankApplication {
     }
 
 
-//    public int DepositAmount() {
-//        int resultSet=0;
-////        PreparedStatement preparedStatement = connection.prepareStatement("insert into Registration");
-//
-//
-//
-//
-//
-//    }
+    public int DepositAmount(BankAppUserDataJava dep) {
+        int resultSet=0;
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("update  Registration set balance=balance+? where userId=?");
+            preparedStatement.setString(1,dep.getBalance());
+            preparedStatement.setString(2,dep.getUserId());
+            resultSet=preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            System.out.println("e");
+        }return resultSet;
+    }
+
+    public int WithdrawAmount(BankAppUserDataJava wit){
+
+        int returnwith =0;
+        try {
+            PreparedStatement preparedStatement=connection.prepareStatement("update Registration set balance=balannce+? where userId=?");
+            preparedStatement.setString(1,wit.getBalance());
+            preparedStatement.setString(2, wit.getUserId());
+            returnwith= preparedStatement.executeUpdate();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return returnwith;
+    }
 }

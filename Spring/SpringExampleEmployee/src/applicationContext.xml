@@ -14,10 +14,39 @@ and open the template in the editor.
                 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"> 
     
     
-     
+<!-- simple constructor    -->
 <bean id="Empbean" class="springexampleemployee.Employee">
 <constructor-arg value="10"></constructor-arg>  
 <constructor-arg value="pranish"></constructor-arg>   
 </bean > 
+
+<!--contructor-object-dependancy injection-->
+ <bean id="addressid" class="ConstructorInjectionWithDependantObject.Address">
+        <constructor-arg value="bhadrawati"></constructor-arg>
+        <constructor-arg value="Maharashtra"></constructor-arg>
+        <constructor-arg value="India"></constructor-arg>
+    </bean>
+    
+    <bean id="studid" class="ConstructorInjectionWithDependantObject.Student">
+        <constructor-arg value="100" type="int"></constructor-arg>
+          <constructor-arg value="sparsh"></constructor-arg>
+          <constructor-arg ref="addressid"></constructor-arg>
+    </bean>
+
+
+<!--collection-list with string -->
+   <bean id="queid" class="Collection.Question">
+<constructor-arg value="01"></constructor-arg>  
+<constructor-arg value="Capital of maharashtra"></constructor-arg> 
+<constructor-arg> <list>
+        <value>nagpur</value>
+         <value>chandrapur</value>
+          <value>pune</value>
+    </list> </constructor-arg>                
+    </bean>
+    
+    
+    
+    
         
 </beans>  

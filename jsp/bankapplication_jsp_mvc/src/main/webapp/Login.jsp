@@ -11,6 +11,7 @@
 <%@ page import="static java.lang.System.out" %>
 <%@ page import="static java.lang.System.out" %>
 <jsp:useBean id="login" class="com.example.bankapplication_jsp_mvc.BankAppUserDataJava" scope="application"/>
+<jsp:useBean id="transfer" scope="application" class="com.example.bankapplication_jsp_mvc.TransactionJava"/>
 
 
 <jsp:setProperty name="login" property="userId" param="uid"/>
@@ -30,8 +31,12 @@ try{
            request.getSession(true);
            session.setAttribute("LoginSessionId",login.getUserId());
 
-        }
-        else
+
+         RequestDispatcher requestdispature=request.getRequestDispatcher("Home.jsp");
+         requestdispature.forward(request, response);
+
+     }
+           else
         {
             System.out.println("Incorrect login ");
 //            System.out.println("<a href='index.jsp'>Log In</a>");
@@ -50,6 +55,5 @@ try{
     <title>Title</title>
 </head>
 <body>
-<h1>login successfully</h1>
 </body>
 </html>

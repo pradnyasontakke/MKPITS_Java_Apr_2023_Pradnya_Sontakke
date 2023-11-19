@@ -64,6 +64,9 @@
             <td><b><input type="submit" name="sbmt" value="SUBMIT"></b></td>
             <td><b><input type="reset" name="rst" value="RESET"></b></td>
         </tr>
+            <tr>
+                <td colspan="2" align="center"><h4><a href="index.jsp">LOG IN HERE</a></h4></td>
+            </tr>
 
    </table> </center><br><br></form>
 

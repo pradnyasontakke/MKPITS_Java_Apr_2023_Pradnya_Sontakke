@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24aeddc5-f28c-4e77-abd6-36cf790cf06d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BankApplication_mvc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankApplication_mvc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankApplication_mvc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BankApplication_mvc/BankApplication_mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/webapp/WithdrawPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/webapp/transferPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/ConstructorInjectionWithDependantObject/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/springexampleemployee/SpringExampleEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring/SpringExampleEmployee/src/springexampleemployee/SpringExampleEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsp/BankApplicationJSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsp/BankApplicationJSP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/java/com/example/bankapplication_jsp_mvc/ServiceBankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/java/com/example/bankapplication_jsp_mvc/ServiceBankApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/webapp/Depositejsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/webapp/Depositejsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/webapp/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/webapp/Home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/webapp/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../jsp/bankapplication_jsp_mvc/src/main/webapp/Login.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2YMBRodERvaRTDMAozVuk0fBhzH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24aeddc5-f28c-4e77-abd6-36cf790cf06d" name="Changes" comment="" />
+      <created>1700325562432</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700325562432</updated>
+      <workItem from="1700325563552" duration="994000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

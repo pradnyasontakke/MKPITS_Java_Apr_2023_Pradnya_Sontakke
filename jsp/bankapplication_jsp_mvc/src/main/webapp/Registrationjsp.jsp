@@ -27,6 +27,8 @@
 <%--<jsp:getProperty name="registereUserdata" property="balance"/>--%>
 
 
+
+
 <%
     try{
         ServiceBankApplication serviceBankApplication=new ServiceBankApplication();
