@@ -57,8 +57,8 @@
         <li><a href="Depositpage.html">DEPOSIT</a></li>
         <li><a href="Withdraw.html">WITHDRAW</a></li>
         <li><a href="transferPage.jsp">TRANSFER</a></li>
-        <li><a href="">STATEMENT</a></li>
-        <li><a href="">LOGOUT</a></li>
+        <li><a href="Statement.jsp">STATEMENT</a></li>
+        <li><a href="Logout.jsp">LOGOUT</a></li>
     </ul>
 </nav></center>
 </body>

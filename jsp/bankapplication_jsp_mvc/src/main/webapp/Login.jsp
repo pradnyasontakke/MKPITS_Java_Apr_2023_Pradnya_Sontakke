@@ -32,8 +32,8 @@ try{
            session.setAttribute("LoginSessionId",login.getUserId());
 
 
-         RequestDispatcher requestdispature=request.getRequestDispatcher("Home.jsp");
-         requestdispature.forward(request, response);
+         RequestDispatcher requestDispatcher=request.getRequestDispatcher("Home.jsp");
+         requestDispatcher.forward(request, response);
 
      }
            else

@@ -58,17 +58,46 @@ public class ServiceBankApplication {
         }return resultSet;
     }
 
-    public int WithdrawAmount(BankAppUserDataJava wit){
+    public int WithdrawAmount(BankAppUserDataJava with){
 
-        int returnwith =0;
+        int resultSet =0;
         try {
-            PreparedStatement preparedStatement=connection.prepareStatement("update Registration set balance=balannce+? where userId=?");
-            preparedStatement.setString(1,wit.getBalance());
-            preparedStatement.setString(2, wit.getUserId());
-            returnwith= preparedStatement.executeUpdate();
+            PreparedStatement preparedStatement=connection.prepareStatement("update Registration set balance=balannce-? where userId=?");
+            preparedStatement.setString(1,with.getBalance());
+            preparedStatement.setString(2, with.getUserId());
+            resultSet= preparedStatement.executeUpdate();
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println(e);
         }
-        return returnwith;
+        return resultSet;
     }
+
+    public int transferAmountDebit(BankAppUserDataJava transfer){
+        int resultSet=0;
+        try{
+
+
+        } catch (Exception e) {
+            out.println(e);
+        }
+        return resultSet;
+    }
+
+
+
+    public ResultSet statement(BankAppUserDataJava statementDisplay) {
+        ResultSet resultSet = null;
+        try {
+
+            PreparedStatement preparedStatement =connection.prepareStatement("Select * from transaction where userId=?");
+            preparedStatement.setString(1, statementDisplay.getUserId());
+            resultSet = preparedStatement.executeQuery();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return resultSet;
+    }
+
 }
+
+

@@ -1,4 +1,5 @@
-<%--
+<%@ page import="com.example.bankapplication_jsp_mvc.ServiceBankApplication" %>
+<%@ page import="java.sql.SQLException" %><%--
   Created by IntelliJ IDEA.
   User: LENOVO
   Date: 11/17/2023
@@ -12,28 +13,22 @@
 
 
 
-<jsp:setProperty name="transferamt" property="transactionType2" value="transfer_in"/>
-<jsp:setProperty name="transferamt" property="userId" param="transferid"/>
-<jsp:setProperty name="transferamt" property="depositAmount" param="transferamount"/>
+<jsp:setProperty name="transferamt" property="transactionTypeOut"/>
+<jsp:setProperty name="transferamt" property="userId" param="transferuid"/>
+<jsp:setProperty name="transferamt" property="Amount" param="transferamt"/>
 <jsp:setProperty name="transferamt" property="transactionDate" param="session.getCreationTime()"/>
-
-
-<jsp:useBean id="login" class="com.example.bankapplication_jsp_mvc.TransactionJava" scope="application"/>
-<jsp:setProperty name="login" property="user_id" param="session.getAttribute(uid)"/>
-<jsp:setProperty name="login" property="typetransfer" value="transfer_out"/>
-<jsp:setProperty name="login" property="transferdate" param="session.getCreationTime()" />
-<jsp:setProperty name="login" property="amount" param="transferamount"/>
 
 
 
 
 
 <%
+    try {
+        ServiceBankApplication serviceBankApplication = new ServiceBankApplication();
 
-    ServiceStudent amttransfer=new ServiceStudent();
-    amttransfer.transfer(transferamt);
-    amttransfer.transferupdate(login);
-
+    } catch (SQLException e) {
+        out.println(e);
+    }
 %>
 <html>
 <head>
@@ -43,3 +38,10 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
