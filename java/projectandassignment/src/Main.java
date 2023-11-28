@@ -1,6 +1,6 @@
-//create an arraylist of string representation words in sentence.
-//        implement a method to count the frequency of each word .
-//        display the word along with their frequency in descending order
+//create an arraylist of string representing words in sentences
+//implement a method to count the frequency of each word
+//display the words along with their frequency in descending order
 
 
 import java.util.ArrayList;
