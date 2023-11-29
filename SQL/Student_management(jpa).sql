@@ -1,7 +1,9 @@
-create database Student_Management
+create database StudentManagement
 use StudentManagement
- table StudentData
-(rollno intcreate not null auto_increment, name varchar(20),city varchar(20) ,primary key(rollno))
 
+  create table student
+(rollno int  not null auto_increment, name varchar(20),city varchar(20) ,primary key(rollno))
+drop table student
 
-select * from Student
+select * from student
+desc student
