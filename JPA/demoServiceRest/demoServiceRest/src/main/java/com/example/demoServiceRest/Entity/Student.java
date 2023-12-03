@@ -1,9 +1,16 @@
-package com.example.demo8.Entity;
+package com.example.demoServiceRest.Entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table
 public class Student {
+    @Id
     private int rollno;
     private String name;
-    private  String city;
+    private String city;
 
     public Student() {
     }

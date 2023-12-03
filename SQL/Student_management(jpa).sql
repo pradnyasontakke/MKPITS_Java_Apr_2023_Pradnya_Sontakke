@@ -7,3 +7,4 @@ drop table student
 
 select * from student
 desc student
+
