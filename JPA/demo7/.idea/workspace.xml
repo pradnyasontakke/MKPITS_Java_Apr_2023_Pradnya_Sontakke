@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d6903af-d5df-462f-98b3-31334a83419a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../demo7.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/demo7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/src/main/java/com/example/demo7/Dao/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/src/main/java/com/example/demo7/Dao/StudentDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/src/main/java/com/example/demo7/Demo7Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/src/main/java/com/example/demo7/Entity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo7/src/test/java/com/example/demo7/Demo7ApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo6/demo6/src/main/java/com/example/demo6/SpringBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo6/demo6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo6/demo6/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo8/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,35 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/MKPITS/MKPITS_Java_Apr_2023_Pradnya_Sontakke/JPA/demo7StudentDaoImpl",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/MKPITS/MKPITS_Java_Apr_2023_Pradnya_Sontakke/JPA/demo7StudentDaoImpl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Demo7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="demo7" />
@@ -111,6 +82,7 @@
       <workItem from="1701258694936" duration="2462000" />
       <workItem from="1701279652768" duration="4220000" />
       <workItem from="1701328585176" duration="1102000" />
+      <workItem from="1701670930381" duration="17000" />
     </task>
     <servers />
   </component>
