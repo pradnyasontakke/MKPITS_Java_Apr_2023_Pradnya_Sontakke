@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{demo.css}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>hello</title>
+</head>
+<body >
+<form th:action="@{/display}"  th:object="${stud}" method="post">
+<!--    -->
+<table cellspacing="5" class="border border-danger p-4 mb-2"  >
+    <th> Student Details</th>
+    <tr>
+        <td><label>rollno</label></td>
+        <td><input type="text" th:field="*{rollno}"></td>
+        </tr>
+
+        <tr>
+        <td><label>name</label></td>
+            <td><input type="text" th:field="*{name}"></td>
+        </tr>
+<!--       <tr>-->
+<!--           <td><label>city</label></td>-->
+<!--       </tr>-->
+
+<!--    <tr></tr>-->
+
+
+</table>
+
+        <select name="city">
+            <option value="select" >--select city--</option>
+            <option value="mumbai" >mumbai</option>
+            <option value="bhadrawati" >bhadrawati</option>
+            <option value="cpur" >cpur</option>
+            <option value="nagpur" >nagpur</option>
+        </select><br>
+
+    <label>gender</label>
+    <label type="text">male</label>
+    <input type="radio"  name="gender" value="male">
+    <label type="text">female</label>
+    <input type="radio"  name="gender" value="female"><br>
+
+
+    <label> select languages</label><br>
+
+    <input type="checkbox" value="c language" >
+    <label>c language </label>
+    <input type="checkbox" value="java" >
+    <label> java</label>
+    <input type="checkbox" value="sql" >
+    <label>sql</label>
+    <br>
+    <input type="submit" value="save">
+
+
+</form>
+<!--<h1 class="bg-success-subtle " >welcome</h1>-->
+<!--<h2 class="border border-primary">this is rest</h2>-->
+
+<!--    <p th:text ="${name}"></p>-->
+<!--<img src="css_images/room.jpg" height="500" width="1400">-->
+</body>
+</html>

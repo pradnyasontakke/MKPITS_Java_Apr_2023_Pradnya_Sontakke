@@ -1,8 +1,0 @@
-package com.example.JPAServiceRestRepository.RestController;
-
-import com.example.JPAServiceRestRepository.Entity.Student;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface RestRepository extends JpaRepository<Student, Integer>
-        {
-}
