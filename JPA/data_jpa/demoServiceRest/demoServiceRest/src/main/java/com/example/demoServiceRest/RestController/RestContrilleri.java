@@ -9,10 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestContrilleri {
     private StudentServiceImpl studentServiceImpl;
+
     public RestContrilleri(StudentServiceImpl studentServiceImpl) {
         this.studentServiceImpl = studentServiceImpl;
     }
-    @PostMapping("/students")
+    @GetMapping("/studentShow")
     public String dataDShow(Student student){
         studentServiceImpl.SaveData(student);
          return "save data";

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7dff80ff-9080-4d5c-a6df-b4897e8c8af6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/src/main/java/com/example/demo/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/src/main/java/com/example/demo/CurrentAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/src/main/java/com/example/demo/SavingAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/src/main/java/com/example/demo/rest/MyRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/.idea/demo3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/demo3/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/.idea/springbootcore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/src/main/java/com/example/demo/RController/cont.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringBoot/springbootcore/corespring/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Z6vq0dIc6NsEE9snycZKk0fXhH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="RestRepositoryLevel3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="RestRepositoryLevel3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.RestRepositoryLevel3.RestRepositoryLevel3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dff80ff-9080-4d5c-a6df-b4897e8c8af6" name="Changes" comment="" />
+      <created>1701755531845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701755531845</updated>
+      <workItem from="1701755533129" duration="1074000" />
+      <workItem from="1702273619765" duration="122000" />
+      <workItem from="1702448126527" duration="401000" />
+      <workItem from="1702450023131" duration="1867000" />
+      <workItem from="1702453286845" duration="9752000" />
+      <workItem from="1702483776037" duration="6416000" />
+      <workItem from="1702636173324" duration="1206000" />
+      <workItem from="1702655222534" duration="500000" />
+      <workItem from="1702656030170" duration="2910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

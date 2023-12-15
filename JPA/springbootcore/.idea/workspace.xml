@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d1cc2a8-1e49-4b2d-b7d6-b5fb2573d281" name="Changes" comment="">
+    <list default="true" id="b38dcb67-bbda-4792-97ec-2729001dd71f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/JPAServiceRestRepository.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/compiler.xml" beforeDir="false" />
@@ -66,6 +66,46 @@
       <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/src/test/java/com/example/demo7/Demo7ApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo8/demo8/src/main/java/com/example/demo8/controllerI/RestControllerI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo8/demo8/src/main/java/com/example/demo8/controllerI/RestControllerI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoJPA/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoJPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoJPA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/.idea/demoRestApi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/demoRestApi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/demoRestApi/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/demoRestApi/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/demoRestApi/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/demoRestApi/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/demoRestApi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/demoRestApi/src/main/java/com/example/demoRestApi/DemoRestApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/demoRestApi/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoRestApi/demoRestApi/src/test/java/com/example/demoRestApi/DemoRestApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/RestCont/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/RestCont/StudentDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Dao/StudentDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/springbootcore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/src/main/java/com/example/demo/RController/cont.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corespring/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
@@ -121,6 +161,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -130,7 +177,10 @@
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2YnnZ8dm7zqzmq3uNL1TjaNZ3y2" />
+  <component name="ProjectId" id="2YbutjHN6IeUkCnOvjaPdVgJnnx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -141,19 +191,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/MKPITS/MKPITS_Java_Apr_2023_Pradnya_Sontakke/JPA/demo5&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/MKPITS/MKPITS_Java_Apr_2023_Pradnya_Sontakke/SpringBoot/springbootcore&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration name="DemoJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="demoJPA" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demoJPA.DemoJpaApplication" />
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,14 +207,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d1cc2a8-1e49-4b2d-b7d6-b5fb2573d281" name="Changes" comment="" />
-      <created>1701170263859</created>
+      <changelist id="b38dcb67-bbda-4792-97ec-2729001dd71f" name="Changes" comment="" />
+      <created>1700806817416</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1701170263859</updated>
-      <workItem from="1701198618457" duration="547000" />
-      <workItem from="1701671026894" duration="8000" />
-      <workItem from="1702643500885" duration="43000" />
+      <updated>1700806817416</updated>
+      <workItem from="1702456811112" duration="44000" />
+      <workItem from="1702644305529" duration="65000" />
     </task>
     <servers />
   </component>

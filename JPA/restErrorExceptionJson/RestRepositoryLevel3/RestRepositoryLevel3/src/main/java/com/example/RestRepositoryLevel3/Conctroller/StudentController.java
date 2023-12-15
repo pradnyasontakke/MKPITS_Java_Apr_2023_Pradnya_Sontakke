@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class StudentController {
-    private ServiceImpl serviceImpl;
+    private  ServiceImpl serviceImpl;
 
 @Autowired
     public StudentController(ServiceImpl serviceImpl) {
@@ -27,7 +27,8 @@ public class StudentController {
     return serviceImpl.findRecord(rollno);
    }
    @GetMapping("/finddata")
-   public List<Student> findAllData(){
+   public List<Student> findAllData()
+   {
     return serviceImpl.findAll();
    }
 
@@ -51,7 +52,7 @@ public String deleteData(@PathVariable Integer rollno){
 
 
 @ExceptionHandler
-    public ResponseEntity<ErrorPage> handleStudent(RecordNotFound ex)
+    public ResponseEntity<ErrorPage> handleStudent(RecordNotFound recordNotFound)
 {
     ErrorPage errorPage=new ErrorPage();
     errorPage.setStatus_code(HttpStatus.NOT_FOUND.value());
