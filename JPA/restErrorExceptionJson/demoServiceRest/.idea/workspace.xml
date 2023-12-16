@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be75046e-af9e-4188-bcde-986e8a1e9ad2" name="Changes" comment="" />
+    <list default="true" id="be75046e-af9e-4188-bcde-986e8a1e9ad2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../VIEW/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/.idea/VIEW.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/View/.idea/View.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/View/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/View/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/View/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/demoServiceRest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/DemoServiceRestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/RestController/MyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/main/resources/static/css_images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/main/resources/static/css_images/room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/main/resources/static/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/main/resources/templates/datashow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VIEW/demoServiceRest/demoServiceRest/src/test/java/com/example/demoServiceRest/DemoServiceRestApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +116,7 @@
       <workItem from="1701768569595" duration="676000" />
       <workItem from="1702448706787" duration="1259000" />
       <workItem from="1702450242969" duration="2315000" />
+      <workItem from="1702746212319" duration="25000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,15 @@
+body{
+    color: forestgreen;
+    background-color: antiquewhite;
+}
+.first{
+    margin-top: 100px;
+    margin-left: 300px;
+    height: 500px;
+    width:800px;
+    align-items: center;
+}
+
+.secondnavbar{
+    background-color: mediumpurple;
+}
