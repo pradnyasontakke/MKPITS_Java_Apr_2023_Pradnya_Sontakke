@@ -11,14 +11,13 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import java.util.List;
 
 @Service
-public class ServiceClass implements serviceStudent{
+public class ServiceClass<Intger> implements serviceStudent{
 
     private JpaRepositoryExample jpaRepositoryExample;
 @Autowired
     public ServiceClass(JpaRepositoryExample jpaRepositoryExample) {
         this.jpaRepositoryExample = jpaRepositoryExample;
     }
-
 
     @Override
     @Transactional
@@ -30,6 +29,17 @@ public class ServiceClass implements serviceStudent{
     @Transactional
     public List<Student> showData() {
         return jpaRepositoryExample.findAll();
+    }
+
+    @Override
+    public Student update(Integer rollno) {
+        Student student= jpaRepositoryExample.findById(rollno).get();
+        return student;
+    }
+
+    @Override
+    public void deleteData(Integer rollno) {
+        jpaRepositoryExample.deleteById(rollno);
     }
 
 

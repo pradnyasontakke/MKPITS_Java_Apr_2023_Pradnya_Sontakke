@@ -12,10 +12,7 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -44,15 +41,27 @@ public class StudentRestController {
         else
         {
             serviceClass.saveData(student);
-            return "redirect:homepage";
+            return "redirect:/homepage";
         }
     }
 
 
     @GetMapping("/homepage")
     public String show( Model model){
-        List<Student> student=serviceClass.showData();
+        List <Student>student=serviceClass.showData();
         model.addAttribute("show",student);
         return "DisplayData";
+    }
+
+    @PostMapping("/update")
+    public String updateStudent(@RequestParam("rollno")int rn, Model model){
+        Student student=serviceClass.update(rn);
+        model.addAttribute("student",student);
+        return "UpdateData";
+    }
+    @GetMapping("/delete/{rollno}")
+    public String delete(@PathVariable Integer rollno){
+        serviceClass.deleteData(rollno);
+        return "redirect:/homepage";
     }
 }
