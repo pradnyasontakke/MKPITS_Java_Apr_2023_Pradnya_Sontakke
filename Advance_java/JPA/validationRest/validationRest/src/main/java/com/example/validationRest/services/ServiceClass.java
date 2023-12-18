@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import java.util.List;
 
 @Service
-public class ServiceClass<Intger> implements serviceStudent{
+public class ServiceClass implements serviceStudent{
 
     private JpaRepositoryExample jpaRepositoryExample;
 @Autowired

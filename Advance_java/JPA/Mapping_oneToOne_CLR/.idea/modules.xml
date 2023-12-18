@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/demoServiceRest.iml" filepath="$PROJECT_DIR$/.idea/demoServiceRest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Mapping_oneToOne_CLR.iml" filepath="$PROJECT_DIR$/.idea/Mapping_oneToOne_CLR.iml" />
     </modules>
   </component>
 </project>

@@ -1,24 +1,26 @@
 package com.example.demoServiceRest.Entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import com.example.demoServiceRest.Entity.Address;
+import jakarta.persistence.*;
 
 @Entity
-@Table
+@Table(name="Student_info")
 public class Student {
     @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
+
     private int rollno;
     private String name;
-    private String city;
-
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name ="Student_address_id")
+    private Address address;
     public Student() {
     }
 
-    public Student(int rollno, String name, String city) {
-        this.rollno = rollno;
+    public Student( String name ,Address address) {
         this.name = name;
-        this.city = city;
+        this.address=address;
+
     }
 
     public int getRollno() {
@@ -37,12 +39,12 @@ public class Student {
         this.name = name;
     }
 
-    public String getCity() {
-        return city;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     @Override
@@ -50,7 +52,7 @@ public class Student {
         return "Student{" +
                 "rollno=" + rollno +
                 ", name='" + name + '\'' +
-                ", city='" + city + '\'' +
+                ", address='" + address + '\'' +
                 '}';
     }
 }

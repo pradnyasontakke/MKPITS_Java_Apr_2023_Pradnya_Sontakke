@@ -1,0 +1,2 @@
+create database mapping_Stud_Add
+use mapping_Stud_Add
