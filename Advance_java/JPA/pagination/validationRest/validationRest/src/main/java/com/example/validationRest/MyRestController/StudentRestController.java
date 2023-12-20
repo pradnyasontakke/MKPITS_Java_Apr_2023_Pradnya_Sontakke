@@ -47,8 +47,9 @@ public class StudentRestController {
 
 
     @GetMapping("/homepage")
-    public String show( Model model){
-        List <Student>student=serviceClass.showData();
+    public String show( @PageableDefault(size = 8) Pageable pageable, Model model){
+    Page<Student>student=serviceClass.getRecord(pageable);
+//        List <Student>student=serviceClass.showData();
         model.addAttribute("show",student);
         return "DisplayData";
     }
@@ -58,8 +59,6 @@ public class StudentRestController {
         Student student=serviceClass.update(roll_no);
         model.addAttribute("stud",student);
         return "registration";
-
-
 
 
     }

@@ -5,134 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68e61dc6-8415-40b6-a1ca-5b1f3a17f0c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/JPAServiceRestRepository.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/src/main/java/com/example/JPAServiceRestRepository/Entity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/src/main/java/com/example/JPAServiceRestRepository/JpaServiceRestRepositoryApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/src/main/java/com/example/JPAServiceRestRepository/repository/MyRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dataRest/JPAServiceRestRepository/JPAServiceRestRepository/src/test/java/com/example/JPAServiceRestRepository/JpaServiceRestRepositoryApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data_jpa/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/RestController/RestContrilleri.java" beforeDir="false" afterPath="$PROJECT_DIR$/../data_jpa/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/RestController/RestContrilleri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/.idea/demo3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo3/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/.idea/demo7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/.idea/demo7StudentDaoImpl.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/src/main/java/com/example/demo7/Dao/StudentDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/src/main/java/com/example/demo7/Dao/StudentDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/src/main/java/com/example/demo7/Demo7Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/src/main/java/com/example/demo7/Entity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo7StudentDaoImpl/demo7/src/test/java/com/example/demo7/Demo7ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo8/demo8/src/main/java/com/example/demo8/controllerI/RestControllerI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo8/demo8/src/main/java/com/example/demo8/controllerI/RestControllerI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoJPA/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoJPA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoJPA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/demoRestApi.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoRestApi/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoRestApi/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoRestApi/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoRestApi/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoRestApi/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoRestApi/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoRestApi/src/main/java/com/example/demoRestApi/DemoRestApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoRestApi/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoRestApi/src/test/java/com/example/demoRestApi/DemoRestApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/src/main/java/com/example/demo/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/src/main/java/com/example/demo/CurrentAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/src/main/java/com/example/demo/SavingAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/src/main/java/com/example/demo/rest/MyRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/.idea/demo3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/demo3/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/.idea/springbootcore.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/src/main/java/com/example/demo/RController/cont.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SpringBoot/springbootcore/corespring/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/.idea/Mapping_oneToOne_CLR.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/.idea/demoServiceRest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/DemoServiceRestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/dao/DaoStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - bidirectional/demoServiceRest/demoServiceRest/src/test/java/com/example/demoServiceRest/DemoServiceRestApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/DemoServiceRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/DemoServiceRestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/MyController/MyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping_oneToOne_CLR/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_jpa/demoServiceRest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../data_jpa/demoServiceRest/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validationRest/validationRest/src/main/java/com/example/validationRest/MyRestController/StudentRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../validationRest/validationRest/src/main/java/com/example/validationRest/MyRestController/StudentRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validationRest/validationRest/src/main/java/com/example/validationRest/services/ServiceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../validationRest/validationRest/src/main/java/com/example/validationRest/services/ServiceClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validationRest/validationRest/src/main/resources/templates/DisplayData.html" beforeDir="false" afterPath="$PROJECT_DIR$/../validationRest/validationRest/src/main/resources/templates/DisplayData.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +52,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -185,6 +97,7 @@
       <workItem from="1702456752989" duration="16000" />
       <workItem from="1702643551505" duration="93000" />
       <workItem from="1702643673122" duration="19000" />
+      <workItem from="1703007461233" duration="41000" />
     </task>
     <servers />
   </component>

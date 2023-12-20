@@ -25,34 +25,33 @@ public class DemoServiceRestApplication implements CommandLineRunner {
 	}
 	@Override
 	public void run(String... args) throws Exception {
-		save();
+//		save();
 		find();
-		delete(1);
+//		delete(1);
 
 	}
 	public void save(){
-		Address address=new Address("ajni","nagpur");
-		Student student=new Student("rita",address);
+		Address address=new Address("bardi","nagpur");
+		Student student=new Student("ritansh",address);
 		String save_Student_data=studentServiceImpl.SaveData(student);
 		System.out.println(save_Student_data);
-		System.out.println(student);
-		System.out.println(address);
+//		System.out.println(student);
+//		System.out.println(address);
 		}
 
 	public void find() {
-		Student findData = studentServiceImpl.find(1);
+		Student findData = studentServiceImpl.find(602);
 		System.out.println(findData);
 	}
+
+
 //
-		public Integer delete(@PathVariable Integer rollno) {
-			System.out.println("data deleted");
-            return studentServiceImpl.delete(rollno);
+//		public Integer delete(@PathVariable Integer rollno) {
+//			System.out.println("data deleted");
+//            return studentServiceImpl.delete(rollno);
+//
+//		}
 
-		}
 
-//	  public void delete(){
-//      studentServiceImpl.delete(1);
-//		  System.out.println("deleted data");
-//	  }
 
 		}

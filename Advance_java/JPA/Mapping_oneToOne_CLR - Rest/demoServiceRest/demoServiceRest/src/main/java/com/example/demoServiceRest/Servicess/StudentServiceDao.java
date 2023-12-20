@@ -7,6 +7,5 @@ import java.util.List;
 public interface StudentServiceDao {
    String SaveData(Student student);
 
-   Student find(Integer rollno);
 
 }

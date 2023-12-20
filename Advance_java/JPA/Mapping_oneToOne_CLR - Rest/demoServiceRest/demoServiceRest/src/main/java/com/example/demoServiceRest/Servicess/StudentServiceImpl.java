@@ -17,32 +17,13 @@ public class StudentServiceImpl implements StudentServiceDao {
     this.daoStudent = daoStudent;
   }
 
+
   @Override
   @Transactional
   public String SaveData(Student student) {
-    daoStudent.save(student);
-    return "record save";
-
-}
-
-  @Override
-  public Student find(Integer rollno) {
-    return daoStudent.findById(rollno).get();
+  daoStudent.save(student);
+    return "data insert";
   }
-
-
-
-
-
-//  @Override
-//  public Integer delete(Integer rollno) {
-//     daoStudent.deleteById(rollno);
-////      return null;
-//      return rollno;
-//  }
-
-
-
 }
 
 

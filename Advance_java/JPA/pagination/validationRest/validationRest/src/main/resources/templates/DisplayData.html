@@ -48,21 +48,19 @@
 
 
 
-<!--<div class="pagination-div text-center">-->
-<!--    <span th:if="${show.hasPrevious()}">-->
-<!--        <a th:href="@{/homepage(show=${(show.number)-1},size=${show.size})}">Previous</a>-->
-<!--    </span>-->
-<!--    <th:block th:each="i: ${#numbers.sequence(0, show.totalPages - 1)}">-->
-<!--        <span th:if="${show.number == i}" class="selected">[[${i}+1]]</span>-->
-<!--        <span th:unless="${show.number == i}">-->
-<!--             <a th:href="@{/homepage(page=${i},size=${show.size})}">[[${i}+1]]</a>-->
-<!--        </span>-->
-<!--    </th:block>-->
-<!--    <span th:if="${show.hasNext()}">-->
-<!--        <a th:href="@{/homepage(show=${show.number+1},size=${show.size})}">Next</a>-->
-<!--    </span>-->
-
-<!--</div>-->
-
+<div class="pagination-div text-center">
+    <span th:if="${show.hasPrevious()}">
+        <a th:href="@{/homepage(show=${(show.number)-1},size=${show.size})}">Previous</a>
+    </span>
+    <th:block th:each="i: ${#numbers.sequence(0, show.totalPages - 1)}">
+        <span th:if="${show.number == i}" class="selected">[[${i}+1]]</span>
+        <span th:unless="${show.number == i}">
+             <a th:href="@{/homepage(page=${i},size=${show.size})}">[[${i}+1]]</a>
+        </span>
+    </th:block>
+    <span th:if="${show.hasNext()}">
+        <a th:href="@{/homepage(show=${show.number+1},size=${show.size})}">Next</a>
+    </span>
+</div>
 </body>
 </html>

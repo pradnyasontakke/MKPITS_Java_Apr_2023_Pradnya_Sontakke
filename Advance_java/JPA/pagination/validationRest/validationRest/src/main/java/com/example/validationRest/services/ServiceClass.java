@@ -5,6 +5,8 @@ import com.example.validationRest.Entity.Student;
 import jakarta.persistence.Table;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
@@ -43,6 +45,11 @@ public class ServiceClass implements serviceStudent{
     @Override
     public void deleteData(Integer rollno) {
         jpaRepositoryExample.deleteById(rollno);
+    }
+
+    @Override
+    public Page<Student> getRecord(Pageable pageable) {
+        return jpaRepositoryExample.findAll(pageable);
     }
 
 
