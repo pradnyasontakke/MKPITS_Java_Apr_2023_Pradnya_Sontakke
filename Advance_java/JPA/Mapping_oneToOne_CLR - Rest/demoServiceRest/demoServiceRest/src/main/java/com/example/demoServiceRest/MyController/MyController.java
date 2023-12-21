@@ -1,30 +1,19 @@
-package com.example.demoServiceRest.MyController;
+package com.example.demoServiceRest.myController;
 
 import com.example.demoServiceRest.Entity.Student;
-import com.example.demoServiceRest.Servicess.StudentServiceImpl;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
+import com.example.demoServiceRest.service.ServiceImpl;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MyController {
-  private StudentServiceImpl studentServiceImpl;
-
-    public MyController(StudentServiceImpl studentServiceImpl) {
-        this.studentServiceImpl = studentServiceImpl;
+    private ServiceImpl serviceImpl;
+    public MyController(ServiceImpl serviceImpl) {
+        this.serviceImpl = serviceImpl;
     }
-
     @GetMapping("/save")
-    public String dataSave(@RequestBody Student student) {
-        studentServiceImpl.Save(student);
-        return "save data";
+    public String savedata(Student student){
+        serviceImpl.save(student);
+        return "data save";
     }
-
 }
-
-
-
-
-
-
-
-

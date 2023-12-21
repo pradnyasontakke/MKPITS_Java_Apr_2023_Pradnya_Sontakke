@@ -14,6 +14,7 @@ public class Student {
     private Address address;
     public Student() {
     }
+
     public Student( String name ,Address address) {
         this.name = name;
         this.address=address;
