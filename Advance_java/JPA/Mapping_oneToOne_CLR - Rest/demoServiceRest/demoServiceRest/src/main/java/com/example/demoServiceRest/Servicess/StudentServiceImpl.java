@@ -20,10 +20,11 @@ public class StudentServiceImpl implements StudentServiceDao {
 
   @Override
   @Transactional
-  public String SaveData(Student student) {
+  public String Save(Student student) {
   daoStudent.save(student);
     return "data insert";
   }
+
 }
 
 
