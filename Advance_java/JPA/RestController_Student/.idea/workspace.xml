@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c346e2c-f75d-4b97-9410-b0d199c07099" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../RestMapping_one to one/Rest_Mapping/.idea/Rest_Mapping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestMapping_one to one/Rest_Mapping/Rest_Mapping/src/main/java/com/example/Rest_Mapping/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestMapping_one to one/Rest_Mapping/Rest_Mapping/src/main/java/com/example/Rest_Mapping/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/DemoServiceRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/DemoServiceRestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/MyController/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/MyController/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Servicess/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/dao/DaoStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMapping_one to one/Rest_Mapping/Rest_Mapping/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../RestMapping_one to one/Rest_Mapping/Rest_Mapping/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2ZqpyLXId16ySvGPZeQKHbBRvew" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c346e2c-f75d-4b97-9410-b0d199c07099" name="Changes" comment="" />
+      <created>1703159717095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703159717095</updated>
+      <workItem from="1703159721165" duration="604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

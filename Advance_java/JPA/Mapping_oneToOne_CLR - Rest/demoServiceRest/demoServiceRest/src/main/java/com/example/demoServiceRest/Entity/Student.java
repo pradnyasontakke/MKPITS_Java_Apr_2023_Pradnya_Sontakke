@@ -15,7 +15,13 @@ public class Student {
     public Student() {
     }
 
-    public Student( String name ,Address address) {
+    public Student(int rollno, String name, Address address) {
+        this.rollno = rollno;
+        this.name = name;
+        this.address = address;
+    }
+
+    public Student(String name , Address address) {
         this.name = name;
         this.address=address;
 
