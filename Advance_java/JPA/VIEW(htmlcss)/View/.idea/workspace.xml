@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be75046e-af9e-4188-bcde-986e8a1e9ad2" name="Changes" comment="" />
+    <list default="true" id="be75046e-af9e-4188-bcde-986e8a1e9ad2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/DemoServiceRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/DemoServiceRestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/Entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/MyController/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/MyController/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/service/ServiceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/service/ServiceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/java/com/example/demoServiceRest/service/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mapping_oneToOne_CLR - Rest/demoServiceRest/demoServiceRest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/src/main/java/com/example/demo/HibernateConnectivityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/src/test/java/com/example/demo/HibernateConnectivityApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,6 +96,7 @@
       <workItem from="1701766150572" duration="4000" />
       <workItem from="1701766221356" duration="321000" />
       <workItem from="1702668899848" duration="30000" />
+      <workItem from="1703423006513" duration="24000" />
     </task>
     <servers />
   </component>

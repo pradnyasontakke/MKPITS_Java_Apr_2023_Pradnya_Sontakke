@@ -6,6 +6,8 @@ import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ServiceImpl implements ServiceDao {
    private DaoJpaRepository daoJpaRepository;
@@ -16,23 +18,23 @@ public class ServiceImpl implements ServiceDao {
 
     @Override
     @Transactional
-    public String save(Student student) {
-        daoJpaRepository.save(student);
-        return "data saved";
+    public Student saveRecord(Student student) {
+       return daoJpaRepository.save(student);
     }
 
     @Override
-    @Transactional
-    public Integer findRollno(Integer rollno) {
-    return daoJpaRepository.findById(rollno).get().getRollno();
+    public List<Student> findData() {
+    List<Student> studentList=daoJpaRepository.findAll();
+        return studentList;
     }
 
     @Override
-    @Transactional
-    public Integer delete(Integer rollno) {
-        daoJpaRepository.deleteById(rollno);
-        return rollno;
+    public void delete(Integer rollno) {
+    daoJpaRepository.deleteById(rollno);
+
     }
+
+
 }
 
 

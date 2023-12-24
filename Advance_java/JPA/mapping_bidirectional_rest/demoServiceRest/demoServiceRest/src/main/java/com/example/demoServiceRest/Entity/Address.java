@@ -1,4 +1,5 @@
 package com.example.demoServiceRest.Entity;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
 @Entity
@@ -9,8 +10,12 @@ public class Address {
     private int id;
     private String Area;
     private String city;
+    @JsonBackReference
+    @OneToOne(mappedBy = "address",cascade = {CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST,CascadeType.REFRESH})
 
-    public Address() {
+    public Student student;
+    public Address(Student student) {
+        this.student = student;
     }
 
     public Address( String area, String city) {
@@ -18,19 +23,10 @@ public class Address {
         this.city = city;
     }
 
-    public Address(int id, String area, String city) {
-        this.id = id;
-        Area = area;
-        this.city = city;
+    public Address() {
+
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getArea() {
         return Area;

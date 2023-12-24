@@ -1,10 +1,11 @@
 package com.example.demoServiceRest.service;
 
 import com.example.demoServiceRest.Entity.Student;
-
+import java.util.List;
 public interface ServiceDao {
-    String save(Student student);
-    Integer findRollno(Integer rollno);
-    Integer delete(Integer rollno);
+    Student saveRecord(Student student);
+    List<Student> findData();
+    void  delete (Integer rollno);
+
 
 }
