@@ -29,6 +29,13 @@ public class ServiceImpl implements ServiceDao {
     }
 
     @Override
+    @Transactional
+    public Student update(Integer rollno) {
+    Student student=daoJpaRepository.findById(rollno).get();
+        return student;
+    }
+
+    @Override
     public void delete(Integer rollno) {
     daoJpaRepository.deleteById(rollno);
 
@@ -36,6 +43,10 @@ public class ServiceImpl implements ServiceDao {
 
 
 }
+
+
+
+
 
 
 

@@ -2,6 +2,7 @@ package com.example.demoServiceRest.myController;
 import com.example.demoServiceRest.Entity.Student;
 import com.example.demoServiceRest.service.ServiceDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -30,7 +31,15 @@ public class MyController {
       serviceDao.saveRecord(student);
       return "data save";
     }
-    @GetMapping("/deleteStudents")
+    @GetMapping("/updateStudents")
+    public String updateStudent(@RequestParam("rollno")int rollno, Model model){
+    Student student=serviceDao.update(rollno);
+    model.addAttribute("stud",student);
+    return "updated rollno";
+    }
+
+
+    @GetMapping("/delete/{rollno}")
     public String delete(@PathVariable Integer rollno){
      serviceDao.delete(rollno);
      return "deleted rollno";
