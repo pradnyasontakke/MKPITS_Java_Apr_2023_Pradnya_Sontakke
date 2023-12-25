@@ -22,10 +22,14 @@ public class MyController {
 //        serviceDao.saveRecord(student);
 //        return "data inserted successfully";
 //    }
+
+    // show all data
     @GetMapping("/showStudents")
     public List<Student> show(){
         return serviceDao.findData();
     }
+//
+
     @PostMapping("/showData")
     public String save(@RequestBody Student student){
       serviceDao.saveRecord(student);
