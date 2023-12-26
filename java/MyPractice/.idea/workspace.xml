@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dae99ce4-845c-4d46-98eb-ed5016448615" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ObjectCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPractice/ConstructorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyPractice/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advance_java/JPA/RestRepositoryLevel3/RestRepositoryLevel3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Advance_java/JPA/RestRepositoryLevel3/RestRepositoryLevel3/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +29,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2RozFEyID1GbDLrGvLK00xr2BPB" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/MKPITS/MKPITS_Java_Apr_2023_Pradnya_Sontakke/MKPITS_Java_Apr_2023_Pradnya_Sontakke/java/MyPractice",
+    "last_opened_file_path": "E:/MKPITS/MKPITS_Java_Apr_2023_Pradnya_Sontakke/java/MyPractice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrayDemo">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="AbstractionOfbank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyPractice.AbstractionOfbank" />
       <module name="MyPractice" />
@@ -94,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyPractice.Test" />
+      <module name="MyPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MyPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.Array1" />
         <item itemvalue="Application.AbstractionOfbank" />
@@ -124,6 +139,7 @@
       <workItem from="1688557955003" duration="887000" />
       <workItem from="1688581060396" duration="216000" />
       <workItem from="1688621061559" duration="1277000" />
+      <workItem from="1703590707550" duration="878000" />
     </task>
     <servers />
   </component>
