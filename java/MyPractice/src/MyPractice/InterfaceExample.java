@@ -1,7 +1,7 @@
 package MyPractice;
 
 interface InterfaceExample {    //step1: create class
-    int number = 10;             //field-by default public ststic and final
+    int number = 10;             //field-by default public static and final
 
     public void display();   // method-by default public and abstract
 }                                 //method only declare not define
